@@ -1,23 +1,657 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: NiHost\n"
+"Project-Id-Version: BoxBilling\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2012-02-27 08:47+0300\n"
-"Last-Translator: BoxBilling <info@boxbilling.com>\n"
-"Language-Team: NoHost <support@ni-host.com>\n"
-"Language: French\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-12 06:29+0100\n"
+"Last-Translator: Oussama zeddam <oussama.zeddam@gmail.com>\n"
+"Language-Team: BoxBilling <info@boxbilling.com>\n"
+"Language: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: FRANCE\n"
+"X-Poedit-KeywordsList: __;gettext;Box_Exception\n"
+"X-Poedit-Basepath: ../../../\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: bb-library/Api\n"
+"X-Poedit-SearchPath-1: bb-library/Box\n"
+"X-Poedit-SearchPath-2: bb-library/License\n"
+"X-Poedit-SearchPath-3: bb-library/Model\n"
+"X-Poedit-SearchPath-4: bb-modules\n"
 
-msgid "Error"
-msgstr "Erreur"
+msgid "sq_AL"
+msgstr "Albanian (Albania)"
+
+msgid "ar_DZ"
+msgstr "Arabic (Algeria)"
+
+msgid "ar_BH"
+msgstr "Arabic (Bahrain)"
+
+msgid "ar_EG"
+msgstr "Arabic (Egypt)"
+
+msgid "ar_IQ"
+msgstr "Arabic (Iraq)"
+
+msgid "ar_JO"
+msgstr "Arabic (Jordan)"
+
+msgid "ar_KW"
+msgstr "Arabic (Kuwait)"
+
+msgid "ar_LB"
+msgstr "Arabic (Lebanon)"
+
+msgid "ar_LY"
+msgstr "Arabic (Libya)"
+
+msgid "ar_MA"
+msgstr "Arabic (Morocco)"
+
+msgid "ar_OM"
+msgstr "Arabic (Oman)"
+
+msgid "ar_QA"
+msgstr "Arabic (Qatar)"
+
+msgid "ar_SA"
+msgstr "Arabic (Saudi Arabia)"
+
+msgid "ar_SD"
+msgstr "Arabic (Sudan)"
+
+msgid "ar_SY"
+msgstr "Arabic (Syria)"
+
+msgid "ar_TN"
+msgstr "Arabic (Tunisia)"
+
+msgid "ar_AE"
+msgstr "Arabic (United Arab Emirates)"
+
+msgid "ar_YE"
+msgstr "Arabic (Yemen)"
+
+msgid "be_BY"
+msgstr "Belarusian (Belarus)"
+
+msgid "bg_BG"
+msgstr "Bulgarian (Bulgaria)"
+
+msgid "ca_ES"
+msgstr "Catalan (Spain)"
+
+msgid "zh_CN"
+msgstr "Chinese (China)"
+
+msgid "zh_HK"
+msgstr "Chinese (Hong Kong)"
+
+msgid "zh_SG"
+msgstr "Chinese (Singapore)"
+
+msgid "zh_TW"
+msgstr "Chinese (Taiwan)"
+
+msgid "hr_HR"
+msgstr "Croatian (Croatia)"
+
+msgid "cs_CZ"
+msgstr "Czech (Czech Republic)"
+
+msgid "da_DK"
+msgstr "Danish (Denmark)"
+
+msgid "nl_BE"
+msgstr "Dutch (Belgium)"
+
+msgid "nl_NL"
+msgstr "Dutch (Netherlands)"
+
+msgid "en_AU"
+msgstr "English (Australia)"
+
+msgid "en_CA"
+msgstr "English (Canada)"
+
+msgid "en_IN"
+msgstr "English (India)"
+
+msgid "en_IE"
+msgstr "English (Ireland)"
+
+msgid "en_MT"
+msgstr "English (Malta)"
+
+msgid "en_NZ"
+msgstr "English (New Zealand)"
+
+msgid "en_PH"
+msgstr "English (Philippines)"
+
+msgid "en_SG"
+msgstr "English (Singapore)"
+
+msgid "en_ZA"
+msgstr "English (South Africa)"
+
+msgid "en_GB"
+msgstr "English (United Kingdom)"
+
+msgid "en_US"
+msgstr "English (United States)"
+
+msgid "et_EE"
+msgstr "Estonian (Estonia)"
+
+msgid "fi_FI"
+msgstr "Finnish (Finland)"
+
+msgid "fr_BE"
+msgstr "French (Belgium)"
+
+msgid "fr_CA"
+msgstr "French (Canada)"
+
+msgid "fr_FR"
+msgstr "French (France)"
+
+msgid "fr_LU"
+msgstr "French (Luxembourg)"
+
+msgid "fr_CH"
+msgstr "French (Switzerland)"
+
+msgid "de_AT"
+msgstr "German (Austria)"
+
+msgid "de_DE"
+msgstr "German (Germany)"
+
+msgid "de_LU"
+msgstr "German (Luxembourg)"
+
+msgid "de_CH"
+msgstr "German (Switzerland)"
+
+msgid "el_CY"
+msgstr "Greek (Cyprus)"
+
+msgid "el_GR"
+msgstr "Greek (Greece)"
+
+msgid "iw_IL"
+msgstr "Hebrew (Israel)"
+
+msgid "hi_IN"
+msgstr "Hindi (India)"
+
+msgid "hu_HU"
+msgstr "Hungarian (Hungary)"
+
+msgid "is_IS"
+msgstr "Icelandic (Iceland)"
+
+msgid "in_ID"
+msgstr "Indonesian (Indonesia)"
+
+msgid "ga_IE"
+msgstr "Irish (Ireland)"
+
+msgid "it_IT"
+msgstr "Italian (Italy)"
+
+msgid "it_CH"
+msgstr "Italian (Switzerland)"
+
+msgid "ja_JP"
+msgstr "Japanese (Japan)"
+
+msgid "ja_JP_JP"
+msgstr "Japanese (Japan,JP)"
+
+msgid "ko_KR"
+msgstr "Korean (South Korea)"
+
+msgid "lv_LV"
+msgstr "Latvian (Latvia)"
+
+msgid "lt_LT"
+msgstr "Lithuanian (Lithuania)"
+
+msgid "mk_MK"
+msgstr "Macedonian (Macedonia)"
+
+msgid "ms_MY"
+msgstr "Malay (Malaysia)"
+
+msgid "mt_MT"
+msgstr "Maltese (Malta)"
+
+msgid "no_NO"
+msgstr "Norwegian (Norway)"
+
+msgid "no_NO_NY"
+msgstr "Norwegian (Norway,Nynorsk)"
+
+msgid "pl_PL"
+msgstr "Polish (Poland)"
+
+msgid "pt_BR"
+msgstr "Portuguese (Brazil)"
+
+msgid "pt_PT"
+msgstr "Portuguese (Portugal)"
+
+msgid "ro_RO"
+msgstr "Romanian (Romania)"
+
+msgid "ru_RU"
+msgstr "Russian (Russia)"
+
+msgid "sr_BA"
+msgstr "Serbian (Bosnia and Herzegovina)"
+
+msgid "sr_ME"
+msgstr "Serbian (Montenegro)"
+
+msgid "sr_CS"
+msgstr "Serbian (Serbia and Montenegro)"
+
+msgid "sr_RS"
+msgstr "Serbian (Serbia)"
+
+msgid "sk_SK"
+msgstr "Slovak (Slovakia)"
+
+msgid "sl_SI"
+msgstr "Slovenian (Slovenia)"
+
+msgid "es_AR"
+msgstr "Spanish (Argentina)"
+
+msgid "es_BO"
+msgstr "Spanish (Bolivia)"
+
+msgid "es_CL"
+msgstr "Spanish (Chile)"
+
+msgid "es_CO"
+msgstr "Spanish (Colombia)"
+
+msgid "es_CR"
+msgstr "Spanish (Costa Rica)"
+
+msgid "es_DO"
+msgstr "Spanish (Dominican Republic)"
+
+msgid "es_EC"
+msgstr "Spanish (Ecuador)"
+
+msgid "es_SV"
+msgstr "Spanish (El Salvador)"
+
+msgid "es_GT"
+msgstr "Spanish (Guatemala)"
+
+msgid "es_HN"
+msgstr "Spanish (Honduras)"
+
+msgid "es_MX"
+msgstr "Spanish (Mexico)"
+
+msgid "es_NI"
+msgstr "Spanish (Nicaragua)"
+
+msgid "es_PA"
+msgstr "Spanish (Panama)"
+
+msgid "es_PY"
+msgstr "Spanish (Paraguay)"
+
+msgid "es_PE"
+msgstr "Spanish (Peru)"
+
+msgid "es_PR"
+msgstr "Spanish (Puerto Rico)"
+
+msgid "es_ES"
+msgstr "Spanish (Spain)"
+
+msgid "es_US"
+msgstr "Spanish (United States)"
+
+msgid "es_UY"
+msgstr "Spanish (Uruguay)"
+
+msgid "es_VE"
+msgstr "Spanish (Venezuela)"
+
+msgid "sv_SE"
+msgstr "Swedish (Sweden)"
+
+msgid "th_TH"
+msgstr "Thai (Thailand)"
+
+msgid "tr_TR"
+msgstr "Turkish (Turkey)"
+
+msgid "uk_UA"
+msgstr "Ukrainian (Ukraine)"
+
+msgid "vi_VN"
+msgstr "Vietnamese (Vietnam)"
+
+msgid "Thread / Thread Starter"
+msgstr "Discussion / Auteur du sujet"
+
+msgid "Last post"
+msgstr "Dernier message"
+
+msgid "Replies"
+msgstr "Réponses"
+
+msgid "Views"
+msgstr "Vues"
+
+msgid "by"
+msgstr "Par"
+
+msgid "The list is empty"
+msgstr "La liste est vide"
+
+msgid "Forum list"
+msgstr "Liste des Forums"
+
+msgid "New topic"
+msgstr "Nouveau sujet"
+
+msgid "Register"
+msgstr "Inscrivez-vous"
+
+msgid "Start new topic in"
+msgstr "Lancer un nouveau sujet dans"
+
+msgid "Start new topic"
+msgstr "Commencer un nouveau sujet"
+
+msgid "Topic title"
+msgstr "Titre de la rubrique"
+
+msgid "Topic message"
+msgstr "Message Sujet"
+
+msgid "Create new topic"
+msgstr "Créer un nouveau sujet"
+
+msgid "Login / Sign up"
+msgstr "Connexion / S'inscrire"
+
+msgid "Sign In / Create new account"
+msgstr "Se connecter / Créer un nouveau compte"
+
+msgid ""
+"Become a member to participate in forum, contact support, order new services"
+msgstr ""
+"Devenez un membre pour participer dans le forum, contacter le support, "
+"commander de nouveaux services"
+
+msgid "Sign in"
+msgstr "Connexion"
+
+msgid "Login to client area"
+msgstr "Connexion à l'espace client"
+
+msgid "Email Address"
+msgstr "Adresse Email"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+msgid "Do not have an account yet?"
+msgstr "Vous n'avez pas encore de compte?"
+
+msgid "Enter your details below"
+msgstr "Entrez vos coordonnées ci-dessous"
+
+msgid "Create new profile"
+msgstr "Créer un nouveau profil"
+
+msgid "First Name"
+msgstr "Prénom"
+
+msgid "Last Name"
+msgstr "Nom de famille"
+
+msgid "Company"
+msgstr "Entreprise"
+
+msgid "Password confirm"
+msgstr "Mot de passe confirment"
+
+msgid "Thank you"
+msgstr "Merci!"
+
+msgid "Payment for invoice received"
+msgstr "Le paiement de facture reçue"
+
+msgid ""
+"Your payment is being processed right now. This takes about 5 minutes to "
+"complete."
+msgstr ""
+"Votre paiement est en cours en ce moment. Cela prend environ 5 minutes."
+
+msgid "You will be automatically redirected to invoice page after 5 minutes."
+msgstr ""
+"Vous serez automatiquement redirigé vers la page facture au bout de 5 "
+"minutes."
+
+msgid "Invoices"
+msgstr "Factures"
+
+msgid "List of invoices"
+msgstr "Liste des factures"
+
+msgid "Invoice management"
+msgstr "Gestion des factures"
+
+msgid "Unpaid"
+msgstr "Non payé"
+
+msgid "Paid"
+msgstr "Payé"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Issue Date"
+msgstr "Date d'émission"
+
+msgid "Due Date"
+msgstr "Date de prochain paiement"
+
+msgid "Total"
+msgstr "Totale"
+
+msgid "Pay"
+msgstr "Payer"
+
+msgid "Paid at"
+msgstr "Payé au"
+
+msgid "Forum"
+msgstr "Forum"
+
+msgid ""
+"Welcome to our forums. If you wish to become a member and post, you have to "
+"be registered member."
+msgstr ""
+"Bienvenue sur notre forum. Si vous désirez devenir membre participer à la "
+"communauté, vous devez être membre."
+
+msgid "Threads"
+msgstr "Discussions"
+
+msgid "Posts"
+msgstr "Les topics"
+
+msgid "Forums are closed"
+msgstr "Les forums sont fermés"
+
+msgid "Favorite topics"
+msgstr "sujets favoris"
+
+msgid "VPS management"
+msgstr "Gestion VPS"
+
+msgid "Details"
+msgstr "Détails"
+
+msgid "Statistics"
+msgstr "Statistiques"
+
+msgid "Manage"
+msgstr "Gérer"
+
+msgid "Control panel"
+msgstr "Panneau de commande"
+
+msgid "State"
+msgstr "Etat"
+
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgid "Hostname"
+msgstr "Nom du hôt"
+
+msgid "Plan"
+msgstr "Le pack"
+
+msgid "Operating system"
+msgstr "système d'exploitation"
+
+msgid "IP address"
+msgstr "Adresse IP"
+
+msgid "Additional IP addresses"
+msgstr "Adresses IP supplémentaires"
+
+msgid "Type"
+msgstr "Catégorie"
+
+msgid "Root password"
+msgstr "Mot de passe root"
+
+msgid "Change status"
+msgstr "Changer le statut"
+
+msgid "VPS rebooting. Refresh page after a few moments."
+msgstr "Redémarrage VPS . Rafraîchissez la page après quelques instants."
+
+msgid "Reboot"
+msgstr "Redémarrez"
+
+msgid "VPS booting. Refresh page after a few moments."
+msgstr "Démarrage VPS . Rafraîchissez la page après quelques instants."
+
+msgid "Boot"
+msgstr "Boot"
+
+msgid "VPS shutdown"
+msgstr "Arrêt VPS "
+
+msgid "Shutdown"
+msgstr "Fermeture"
+
+msgid "Change hostname"
+msgstr "Changer le nom d'hôte"
+
+msgid "Hostname changed"
+msgstr "le nom d'hôte a été changé"
+
+msgid "New hostname"
+msgstr "nouveau nom d'hôte"
+
+msgid "Enter new hostname"
+msgstr "Entrez le nouveau nom d'hôte"
+
+msgid "Change"
+msgstr "Changer"
+
+msgid "Change operating system"
+msgstr "Changer le système d'exploitation"
+
+msgid "Operating system is being changed"
+msgstr "Système d'exploitation est en cours de modification"
+
+msgid "New operating system"
+msgstr "Nouveau système d'exploitation"
+
+msgid "Change root password"
+msgstr "Changer mot de passe root"
+
+msgid "Root password changed"
+msgstr "Mot de passe root changé"
+
+msgid "New password"
+msgstr "nouveau mot de passe"
+
+msgid "Enter new root password"
+msgstr "Entrez le nouveau mot de passe root"
+
+msgid "Bandwidth"
+msgstr "Bande passante"
+
+msgid "Used"
+msgstr "Utilisé"
+
+msgid "Free"
+msgstr "Gratuit"
+
+msgid "Memory"
+msgstr "Mémoire"
+
+msgid "Disk usage"
+msgstr "L'utilisation du disque"
+
+msgid "Boot up server to see statistics"
+msgstr "Démarrez le serveur pour voir les statistiques"
+
+msgid "Are you sure?"
+msgstr "Etes-vous sûr?"
+
+msgid "VPS booting. Reload page after a few moments."
+msgstr "Démarrage du VPS . Recharger la page après quelques instants."
+
+msgid "Login details"
+msgstr "Les informations de connexion"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Open control panel"
+msgstr "Ouvrir le panneau de contrôle"
+
+msgid "Change password"
+msgstr "changer mot de passe"
+
+msgid "Change client area password"
+msgstr "Changer le mot de passe de zone client."
+
+msgid "Client area password changed"
+msgstr "Mot de passe du zone client a été changé."
+
+msgid "Enter new password"
+msgstr "Entrez le nouveau mot de passe"
 
 msgid "Dashboard"
 msgstr "Tableau de bord"
@@ -31,47 +665,275 @@ msgstr "Profil"
 msgid "Sign out"
 msgstr "Déconnexion"
 
-msgid "Login to client area"
-msgstr "Accès client"
-
 msgid "Email address"
-msgstr "Adresse mail"
-
-msgid "Password"
-msgstr "Mot de passe"
-
-msgid "Sign in"
-msgstr "Connexion"
+msgstr "Adresse e-mail"
 
 msgid "Select language"
-msgstr "Sélectionner la langue"
+msgstr "Sélectionnez votre langue"
 
 msgid "Popular articles"
-msgstr "Articles populaires"
+msgstr "Articles les plus lus"
 
 msgid "Recent posts"
-msgstr "Messages récents"
+msgstr "Derniers posts"
 
-msgid "Forum topics"
-msgstr "Sujets du forum"
+msgid "About us"
+msgstr "À propos de nous"
+
+msgid "Terms and conditions"
+msgstr "Termes et conditions"
+
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
 
 msgid "Loading .."
-msgstr "Chargement..."
-
-msgid "Register"
-msgstr "S'enregistrer"
+msgstr "Chargement .."
 
 msgid "Incorrect please try again"
-msgstr "Incorrect veuillez réessayer"
+msgstr "Incorrect s'il vous plaît essayer à nouveau"
 
 msgid "Enter the words above"
 msgstr "Entrez les mots ci-dessus"
 
+msgid "Support tickets"
+msgstr "Tickets de soutien"
+
+msgid "Need an answer? We are here to help"
+msgstr "Besoin d'une réponse? Nous sommes là pour vous aider"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Subject"
+msgstr "Sujet"
+
+msgid "Help desk"
+msgstr "Centre du soutien"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Submitted"
+msgstr "Soumis"
+
+msgid "ago"
+msgstr "déja"
+
+msgid "Submit new ticket"
+msgstr "Soumettre nouveau ticket"
+
+msgid "Submit new support ticket"
+msgstr "Soumettre nouveau ticket de support"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Submit"
+msgstr "soumettre"
+
+msgid "Knowledge base"
+msgstr "Base de connaissances"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "News & Announcements"
+msgstr "Nouvelles et annonces"
+
+msgid "Track our latest posts"
+msgstr "Suivre nos derniers messages"
+
+msgid "Read more.."
+msgstr "En savoir plus .."
+
+msgid "Centova Cast server"
+msgstr "Serveur Cast Centova"
+
+msgid "Recent tracks"
+msgstr "Pistes récentes"
+
+msgid "Unable to connect to server"
+msgstr "Impossible de se connecter au serveur"
+
+msgid "No recent tracks are available"
+msgstr "Pas de pistes récents disponibles"
+
+msgid "Download file"
+msgstr "Télécharger le fichier"
+
+msgid "Download"
+msgstr "Télécharger"
+
+msgid "Back to emails"
+msgstr "Retour au emails"
+
+msgid "From"
+msgstr "à partir de"
+
+msgid "To"
+msgstr "vers"
+
+msgid "Sent"
+msgstr "envoyé"
+
+msgid "Resend"
+msgstr "renvoyer"
+
+msgid "Delete"
+msgstr "supprimer"
+
+msgid "Back to list"
+msgstr "Retour à la liste"
+
+msgid "Topic information"
+msgstr "Information du sujet"
+
+msgid "Topic"
+msgstr "Sujet"
+
+msgid "Started By"
+msgstr "commencé par"
+
+msgid "Messages"
+msgstr "messages"
+
+msgid "Since"
+msgstr "Depuis"
+
+msgid "Back to threads list"
+msgstr "Retour à la liste des discussions"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Quote"
+msgstr "citer"
+
+msgid "Post new message in forum"
+msgstr "Poster un nouveau message dans le forum"
+
+msgid "Post"
+msgstr "poster"
+
+msgid "No replies in this topic"
+msgstr "Aucune réponse à ce sujet"
+
+msgid "Processing payment ..."
+msgstr "Traitement du paiement."
+
+msgid "Redirecting to payment gateway.."
+msgstr "Redirection vers la passerelle de paiement .."
+
+msgid ""
+"Please click here to continue if this page does not redirect automatically "
+"in 5 seconds"
+msgstr ""
+"S'il vous plaît cliquer ici pour continuer Si cette page ne ​​redirige pas "
+"automatiquement dans 5 secondes"
+
+msgid "Quantity:"
+msgstr "Quantité:"
+
+msgid "Total price:"
+msgstr "Prix ​​total:"
+
+msgid "Price"
+msgstr "prix"
+
+msgid "Setup Price"
+msgstr "Prix du Configuration"
+
+msgid "Continue"
+msgstr "continuer"
+
+msgid "Order now"
+msgstr "Commandez maintenant"
+
+msgid "Proforma invoice"
+msgstr "facture proforma"
+
+msgid "Proforma Invoice"
+msgstr "facture proforma"
+
+msgid "Please choose payment type and pay for your chosen products."
+msgstr ""
+"S'il vous plaît choisir le type de paiement et de payer pour vos produits "
+"choisis."
+
+msgid "Invoice"
+msgstr "facture"
+
+msgid "Invoice is paid"
+msgstr "Facture est payée"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Company number"
+msgstr "Numéro d'entreprise"
+
+msgid "VAT"
+msgstr "TVA"
+
+msgid "Discount"
+msgstr "Réduction"
+
+msgid "Pay by"
+msgstr "payer par"
+
+msgid "Subscribe with"
+msgstr "Abonnez-vous à"
+
+msgid "Total:"
+msgstr "total:"
+
+msgid "Pay now"
+msgstr "Payez maintenant"
+
+msgid "Transactions"
+msgstr "Transactions"
+
+msgid "Transaction Date"
+msgstr "Date de transaction"
+
+msgid "Transaction ID"
+msgstr "ID de transaction"
+
+msgid "Gateway"
+msgstr "Passerelle"
+
+msgid "Amount"
+msgstr "montant"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Print"
+msgstr "Imprimer"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "Disk space"
+msgstr "L'espace disque"
+
+msgid "Monthly price"
+msgstr "Prix mensuel"
+
 msgid "Order confirm"
-msgstr "Confirmer la commande"
+msgstr "Confirmer la Commandez"
 
 msgid "Order confirmation"
-msgstr "Confirmation de la commande"
+msgstr "Confirmation de commande"
 
 msgid "These are the products you have selected"
 msgstr "Ce sont les produits que vous avez sélectionnés"
@@ -82,14 +944,11 @@ msgstr "Produit"
 msgid "Period"
 msgstr "Période"
 
-msgid "Price"
-msgstr "Prix"
-
 msgid "setup"
-msgstr "Configuration"
+msgstr "installation"
 
 msgid "Have a promo code?"
-msgstr "Avez-vous un code promotionnel?"
+msgstr "Vous avez un code promo?"
 
 msgid "Apply"
 msgstr "Appliquer"
@@ -97,795 +956,177 @@ msgstr "Appliquer"
 msgid "Reset"
 msgstr "Réinitialiser"
 
-msgid "Total:"
-msgstr "Total:"
-
 msgid "Checkout"
-msgstr "Caisse"
-
-msgid "Email Address"
-msgstr "Adresse mail"
-
-msgid "Login"
-msgstr "Connexion"
-
-msgid "Reset password"
-msgstr "Mot de passe oublié"
-
-msgid "Do not have an account yet?"
-msgstr "Avez-vous déjà un compte?"
-
-msgid "Enter your details below"
-msgstr "Entrez vos coordonnées ci-dessous"
-
-msgid "Create new profile"
-msgstr "Créer un nouveau profil"
-
-msgid "First Name"
-msgstr "Prénom"
-
-msgid "Last Name"
-msgstr "Nom"
-
-msgid "Password confirm"
-msgstr "Confirmer le mot de passe:"
+msgstr "passer a la caisse"
 
 msgid "You have not selected any product"
 msgstr "Vous n'avez sélectionné aucun produit"
 
 msgid "Order new service"
-msgstr "Order new service"
+msgstr "Commander un nouveau service"
 
-msgid "Payments history"
-msgstr "Histoire des paiements"
+msgid "Home"
+msgstr "Accueil"
 
-msgid "Here you can track your payments you have made and what you have been charged for"
-msgstr "Ici, vous pouvez suivre vos paiements que vous avez fait et que vous avez payé"
+msgid "Order"
+msgstr "Commander"
 
-msgid "Amount"
-msgstr "Montant"
+msgid "Knowledge Base"
+msgstr "Base de connaissances"
 
-msgid "Description"
-msgstr "Description"
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Emails"
+msgstr "Emails"
+
+msgid "Payment history"
+msgstr "Historique des paiements"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Send"
+msgstr "Envoyer"
+
+msgid "Affiliate statistics"
+msgstr "Les statistiques d'affiliation"
+
+msgid "#"
+msgstr "#"
 
 msgid "Date"
 msgstr "Date"
 
-msgid "The list is empty"
-msgstr "La liste est vide"
+msgid "by "
+msgstr "Par"
+
+msgid "Configure"
+msgstr "Configurer"
+
+msgid ""
+"The product/service you have chosen has the following configuration options "
+"for you to choose from."
+msgstr ""
+"Le produit / service que vous avez choisi a des options de configuration "
+"suivantes pour vous de choisir."
+
+msgid "Payments history"
+msgstr "Histoire des paiements"
+
+msgid ""
+"Here you can track your payments you have made and what you have been "
+"charged for"
+msgstr ""
+"Ici vous pouvez suivre vos paiements que vous avez fait et ce que vous avez "
+"été accusé de payé"
+
+msgid "Description"
+msgstr "Description"
 
 msgid "Add Funds"
 msgstr "Ajouter des fonds"
 
 msgid "Balance"
-msgstr "Porte-monnaie"
+msgstr "Solde"
 
 msgid "Add funds in advance"
 msgstr "Ajouter des fonds à l'avance"
 
 msgid "You can add funds to your account if you have active order."
-msgstr "Vous pouvez ajouter des fonds sur votre compte si vous avez des commandes actives"
+msgstr ""
+"Vous pouvez ajouter des fonds à votre compte si vous avez une commande "
+"active."
 
 msgid "Add funds"
 msgstr "Ajouter des fonds"
-
-msgid "Login / Sign up"
-msgstr "Connexion / S'enregister"
-
-msgid "Company"
-msgstr "Société"
-
-msgid "Profile details"
-msgstr "Détails du profil"
-
-msgid "Keep your profile up to date"
-msgstr "Gardez votre profil à jour"
-
-msgid "Manage profile"
-msgstr "Gérez le profil"
-
-msgid "Details"
-msgstr "Détails"
-
-msgid "Change Password"
-msgstr "Changer le mot de passe"
-
-msgid "Gravatar"
-msgstr "Gravatar"
-
-msgid "Currency"
-msgstr "Devise"
-
-msgid "Update profile"
-msgstr "Mettre à jour le profil"
-
-msgid "Company Name"
-msgstr "Nom de la société"
-
-msgid "Phone Country Code"
-msgstr "Indicatifs internationaux"
-
-msgid "Phone Number"
-msgstr "Numéro de téléphone"
-
-msgid "Address"
-msgstr "Addresse"
-
-msgid "Address 2"
-msgstr "Addresse 2"
-
-msgid "City"
-msgstr "Ville"
-
-msgid "Country"
-msgstr "Pays"
-
-msgid "State"
-msgstr "État"
-
-msgid "Zip/Postal Code"
-msgstr "Code Postal"
-
-msgid "Change password"
-msgstr "Changer le mot de passe"
-
-msgid "Enter new password"
-msgstr "Entrer un nouveau mot de passe"
-
-msgid "Please register with"
-msgstr "Inscrivez-vous s'il vous plaît avec"
-
-msgid "at "
-msgstr "à"
-
-msgid "to change your profile image. Gravatar image updates may not appear immediately."
-msgstr "pour changer votre image de profil. Les mises à jour de votre Gravatar peuvent ne pas apparaître immédiatement."
-
-msgid "Your profile currency is"
-msgstr "Votre devise de référence est"
-
-msgid "Create new client profile if you want to manage your money in other currency"
-msgstr "Créer un profil nouveau client si vous voulez gérer votre argent dans une autre devise"
-
-msgid "Your profile currency will be defined after your first order. Once your currency is set, all your profile accounting will be managed in that currency and can not be changed."
-msgstr "Votre devise de référence va être définie après votre première commande. Une fois que votre devise est définie, toute la comptabilité de votre profil sera géré dans cette monnaie et ne peut pas être changé."
-
-msgid "Back to emails"
-msgstr "Retour aux messages"
-
-msgid "From"
-msgstr "De"
-
-msgid "To"
-msgstr "À"
-
-msgid "Sent"
-msgstr "Envoyé"
-
-msgid "Resend"
-msgstr "Réenvoyer"
-
-msgid "Delete"
-msgstr "Supprimer"
-
-msgid "Emails"
-msgstr "Messages"
-
-msgid "Emails we have sent you"
-msgstr "Les messages que nous vous avons envoyé"
-
-msgid "Here you can track emails we have sent you"
-msgstr "Ici vous pouvez suivre les messages que nous vous avons envoyé"
-
-msgid "Email subject"
-msgstr "Sujet du message"
-
-msgid "Date sent"
-msgstr "Date d'envoi"
-
-msgid "Forum"
-msgstr "Forum"
-
-msgid "Thread / Thread Starter"
-msgstr "Sujet / Débuté par"
-
-msgid "Last post"
-msgstr "Dernier message"
-
-msgid "Replies"
-msgstr "Réponses"
-
-msgid "Views"
-msgstr "Vues"
-
-msgid "by"
-msgstr "par"
-
-msgid "Forum list"
-msgstr "Navigation rapide"
-
-msgid "New topic"
-msgstr "Nouveau sujet"
-
-msgid "Start new topic in"
-msgstr "Démarrer un nouveau sujet dans"
-
-msgid "Start new topic"
-msgstr "Démarrer un nouveau sujet"
-
-msgid "Topic title"
-msgstr "Titre du sujet"
-
-msgid "Topic message"
-msgstr "Corps du sujet"
-
-msgid "Create new topic"
-msgstr "Créer un nouveau sujet"
-
-msgid "Welcome to our forums. If you wish to become a member and post, you have to be registered member."
-msgstr "Bienvenue sur notre forum. Si vous souhaitez devenir membre et poster, vous devez vous inscrire."
-
-msgid "Threads"
-msgstr "Sujets"
-
-msgid "Posts"
-msgstr "Messages"
-
-msgid "Forums are closed"
-msgstr "Les forums sont fermés"
-
-msgid "Topic information"
-msgstr "A définir"
-
-msgid "Topic"
-msgstr "Sujet"
-
-msgid "Started By"
-msgstr "Débuté par"
-
-msgid "Messages"
-msgstr "Messages"
-
-msgid "Since"
-msgstr "Depuis"
-
-msgid "Back to threads list"
-msgstr "Retour à la liste des sujets"
-
-msgid "Reply"
-msgstr "Répondre"
-
-msgid "Quote"
-msgstr "Citer"
-
-msgid "Post new message in forum"
-msgstr "Poster un nouveau message dans le forum"
-
-msgid "Post"
-msgstr "Poster"
-
-msgid "No replies in this topic"
-msgstr "Aucune réponse à ce sujet"
-
-msgid "Client Area"
-msgstr "Zone client"
-
-msgid "Tickets waiting your reply"
-msgstr "Billets en attente de votre réponse"
-
-msgid "Id"
-msgstr "Id"
-
-msgid "Subject"
-msgstr "Sujet"
-
-msgid "Help desk"
-msgstr "Assistance"
-
-msgid "Status"
-msgstr "Statut"
-
-msgid "Submited"
-msgstr "Envoyé"
-
-msgid "ID"
-msgstr "ID"
-
-msgid "Email"
-msgstr "Message"
-
-msgid "Invoices"
-msgstr "Factures"
-
-msgid "Total"
-msgstr "Total"
-
-msgid "Paid"
-msgstr "Payé"
-
-msgid "Unpaid"
-msgstr "Impayé"
-
-msgid "All Invoices"
-msgstr "Toutes les factures"
-
-msgid "Services"
-msgstr "Services"
-
-msgid "Active"
-msgstr "Actif"
-
-msgid "Soon expires"
-msgstr "Expire prochainement"
-
-msgid "All services"
-msgstr "Tous les services"
-
-msgid "New order"
-msgstr "Nouvelle commande"
-
-msgid "Tickets"
-msgstr "Billets"
-
-msgid "Open"
-msgstr "Ouvert"
-
-msgid "On Hold"
-msgstr "En attente"
-
-msgid "All tickets"
-msgstr "Tous les billets"
-
-msgid "New ticket"
-msgstr "Nouveau billet"
-
-msgid "Recent orders"
-msgstr "Dernières commandes"
-
-msgid "Recent emails"
-msgstr "Derniers messages"
-
-msgid "ago"
-msgstr "auparavant"
-
-msgid "Order"
-msgstr "Commande"
-
-msgid "Order description"
-msgstr "A définir"
-
-msgid "Anouncements"
-msgstr "Annonces"
-
-msgid "Announcements description"
-msgstr "A définir"
-
-msgid "Registration description"
-msgstr "A définir"
-
-msgid "Contact Us"
-msgstr "Contacter nous"
-
-msgid "Contact us description"
-msgstr "A définir"
-
-msgid "Knowledge Base"
-msgstr "FAQ"
-
-msgid "Knowledge base description"
-msgstr "A définir"
-
-msgid "Billing Software"
-msgstr "Logiciel de facturation"
-
-msgid "BoxBilling description"
-msgstr "A définir"
-
-msgid "Processing payment ..."
-msgstr "Traitement du paiement ..."
-
-msgid "Redirecting to payment gateway.."
-msgstr "Redirection vers le paiement ..."
-
-msgid "Please click here to continue if this page does not redirect automatically in 5 seconds"
-msgstr "S'il vous plaît cliquer ici pour continuer, si cette page ne redirige pas automatiquement dans 5 secondes"
-
-msgid "List of invoices"
-msgstr "Liste des factures"
-
-msgid "Invoice management"
-msgstr "Gestion des factures"
-
-msgid "Title"
-msgstr "Titre"
-
-msgid "Issue Date"
-msgstr "Date d'émission"
-
-msgid "Due Date"
-msgstr "Date d'échéance"
-
-msgid "Pay"
-msgstr "Payer"
-
-msgid "Paid at"
-msgstr "Payé le"
-
-msgid "Proforma invoice"
-msgstr "Facture pro forma"
-
-msgid "Proforma Invoice"
-msgstr "Facture pro forma"
-
-msgid "Please choose payment type and pay for your chosen products."
-msgstr "Veuillez s'il vous plaît choisir votre moyen de paiement pour vos produits choisis."
-
-msgid "Invoice"
-msgstr "Facture"
-
-msgid "Invoice is paid"
-msgstr "La facture a été payée"
-
-msgid "Discount"
-msgstr "Remise"
-
-msgid "Pay by"
-msgstr "Payer par"
-
-msgid "Subscribe with"
-msgstr "Abonnez-vous avec"
-
-msgid "Pay now"
-msgstr "Payer maintenant"
-
-msgid "Transactions"
-msgstr "Transactions"
-
-msgid "Transaction Date"
-msgstr "Date de la transaction"
-
-msgid "Transaction ID"
-msgstr "ID Transaction"
-
-#, fuzzy
-msgid "Gateway"
-msgstr ""
-
-msgid "Actions"
-msgstr "Actions"
-
-msgid "Print"
-msgstr "Imprimer"
-
-msgid "Back to list"
-msgstr "Retour à la liste"
 
 msgid "Similiar articles"
 msgstr "Articles similaires"
 
 msgid "Knowledge base categories"
-msgstr "Catégories"
+msgstr "Catégories de la base de connaissances"
 
-msgid "Knowledge base"
-msgstr "FAQ"
+msgid "Terms and Conditions"
+msgstr "Termes et Conditions"
 
-msgid "What are you looking for?"
-msgstr "Que cherchez-vous?"
+msgid "Ticket ID"
+msgstr "ID du ticket"
 
-msgid "Search"
-msgstr "Recherche"
+msgid "Time opened"
+msgstr "Temps ouvert"
 
-msgid "Try using other keyword. No matches not for keyword:"
-msgstr "Essayez d'utiliser d'autres mots-clés. Aucune corréspondance avec: "
+msgid "Related to"
+msgstr "Relatif à"
 
-msgid "Blog"
-msgstr "Blog"
+msgid "Service #"
+msgstr "Service #"
 
-msgid "News & Announcements"
-msgstr "Actualités & annonces"
+msgid "Tickets list"
+msgstr "Liste des tickets"
 
-msgid "Track our latest posts"
-msgstr "Suivre nos derniers messages"
+msgid "Close ticket"
+msgstr "Fermer le ticket"
 
-msgid "Read more.."
-msgstr "Lire plus"
-
-msgid "by "
-msgstr "par"
-
-msgid "Select Product"
-msgstr "Sélectionner un produit"
-
-msgid "Choose products we offer for selling"
-msgstr "Choisissez un des produits que nous vendons"
-
-msgid "Starting from:"
-msgstr "À partir de:"
-
-msgid "View products"
-msgstr "Voir les produits"
-
-msgid "Order now"
-msgstr "Commander maintenant"
-
-msgid "My Products & Services"
-msgstr "Mes Produits & Services"
-
-msgid "Ordered Services"
-msgstr "Services commandés"
-
-msgid "Product/Service"
-msgstr "Produit/Service"
-
-msgid "Next due date"
-msgstr "Date d'échéance suivante"
-
-msgid "Service details"
-msgstr "Détails du service"
-
-msgid "All information about your service"
-msgstr "Toutes les informations sur votre service"
-
-msgid "Product name"
-msgstr "Nom du produit"
-
-msgid "Payment amount"
-msgstr "Montant du paiement"
-
-msgid "Billing cycle"
-msgstr "Période de facturation"
-
-msgid "Order status"
-msgstr "Statut de la commande"
-
-msgid "Order created"
-msgstr "Commande créée"
-
-msgid "Activated at"
-msgstr "Activé à"
-
-msgid "Renewal date"
-msgstr "Date de renouvellement"
-
-msgid "Order notes"
-msgstr "Notes de commande"
-
-msgid "Active support tickets"
-msgstr "Billets de support actifs"
-
-msgid "Renew now"
-msgstr "Renouveler maintenant"
-
-msgid "Request Upgrade"
-msgstr "Demande de mise à niveau"
-
-msgid "Open ticket"
-msgstr "Ouvir un billet"
-
-msgid "Cancel"
-msgstr "Annuler"
-
-msgid "Request Cancellation"
-msgstr "Demande d'annulation"
-
-msgid "I would like to cancel"
-msgstr "Je souhaiterai annuler"
-
-msgid "Reason"
-msgstr "Raison"
-
-msgid "Submit"
-msgstr "Envoyer"
-
-msgid "Open new support ticket reagarding this order"
-msgstr "Ouvrir un nouveau billet de support concernant cette commande"
-
-msgid "Submit new support ticket. Ticket will be visible in support section after submission"
-msgstr "Soumettre un nouveau  billet de support. Le billet sera visible dans la section support après l'envoi"
-
-msgid "Message"
-msgstr "Message"
-
-msgid "Request upgrade"
-msgstr "Demande de mise à niveau"
-
-msgid "I would like to upgrade"
-msgstr "Je souhaiterai mettre à jour"
-
-msgid "Upgrade to"
-msgstr "Mettre à jour vers"
-
-msgid "Notes"
-msgstr "Notes"
-
-msgid "Request"
-msgstr "Requête"
-
-msgid "Addons you have ordered with this service"
-msgstr "Modules que vous avez commandés pour ce service"
-
-msgid "Billing Cycle"
-msgstr "Période de facturation"
-
-msgid "Back to services"
-msgstr "Retour aux services"
-
-msgid "Configure"
-msgstr "Configurer"
-
-msgid "The product/service you have chosen has the following configuration options for you to choose from."
-msgstr "Le produit/service que vous avez choisi a les options de configuration suivantes à vous de les choisir."
-
-msgid "Domain management"
-msgstr "Gestion de domaine"
-
-msgid "Domain details"
-msgstr "Détails du domaine"
+msgid "Manage hosting account"
+msgstr "Gérer le compte d'hébergement"
 
 msgid "Domain"
 msgstr "Domaine"
 
-msgid "Registration date"
-msgstr "Date d'enregistrement"
-
-msgid "Expires at"
-msgstr "Expire le"
-
-msgid "Domain Secret"
-msgstr "Secret du domaine"
-
-msgid "All domain names (except a .EU, .UK domain name) have a Domain (Transfer) Secret Key/Authorization Code (EPP Code) associated with them. This would be required if you want to transfer service."
-msgstr "Tous les noms de domaine (à l'exception de .EU, nom de domaine .UKi) ont un domaine (transfert) clé secrète / code d'autorisation (PPE Code) qui leur sont associés. Il sont nécessairse si vous voulez transférer de service."
-
-msgid "Send EPP code to email"
-msgstr "Envoyer le code PPE par email"
-
-msgid "Domain Protection"
-msgstr "Protection du domaine"
-
-msgid "Domain locking is a security enhancement to prevent unauthorized transfers of your domain to another registrar or web host by \"locking\" your domain name servers."
-msgstr "Le verrouillage de domaine est un renforcement de la sécurité pour empêcher les transferts non autorisés de votre nom de domaine vers un autre registre ou d'hébergeur par \"verrouillage\" vos serveurs de noms de domaine"
-
-msgid "Unlock"
-msgstr "Débloquer"
-
-msgid "Lock"
-msgstr "Bloquer"
-
-msgid "Domain Privacy Settings"
-msgstr "Paramètres de confidentialité du domaine"
-
-msgid "If you would like to hide domain contact information which is shown on WHOIS you can enable privacy protection. Once domain privacy protection is enabled no one will know who registered this service. And once you decide to disable privacy protection, information that is listed above on \"Update Domain Contact Details\" section will be seen on domain WHOIS again."
-msgstr "Si vous souhaitez masquer les informations de contact de domaine qui sont affichés sur WHOIS, vous pouvez activer la protection de confidentialité. Une fois protection de la confidentialité du domaine est activé personne ne saura qui a enregistré ce service. Et une fois que vous décidez de désactiver la protection des renseignements, les informations énumérés ci-dessus sur \"Update domain contact details\" seront visibles de nouveau WHOIS."
-
-msgid "Disable Privacy protection"
-msgstr "Désactiver la protection de confidentialité"
-
-msgid "Enable Privacy protection"
-msgstr "Activer la protection de confidentialité"
-
-msgid "Domain Nameservers"
-msgstr "Nom des serveurs du domaine"
-
-msgid "If you would like to host this domain with another company you can update nameservers."
-msgstr "Si vous souhaitez héberger ce domaine avec une autre société, vous pouvez mettre à jour les nomserveurs."
-
-msgid "Update nameservers"
-msgstr "Mettre à jour le nom des serveurs"
-
-msgid "Nameserver 1"
-msgstr "Nom serveur 1"
-
-msgid "Nameserver 2"
-msgstr "Nom serveur 2"
-
-msgid "Nameserver 3"
-msgstr "Nom serveur 3"
-
-msgid "Nameserver 4"
-msgstr "Nom serveur 4"
-
-msgid "Update"
-msgstr "Mettre à jour"
-
-msgid "Domain Contact Details"
-msgstr "Détails de contact du domaine"
-
-msgid "Domain contact details will be displayed once someone will check WHOIS output (which is public) of your service. This will update Technical, Billing and Admin contacts for this service. You can enable domain privacy protection if you want to hide your public WHOIS information."
-msgstr "Coordonnées de domaine sera affiché une fois que quelqu'un va vérifier la sortie WHOIS (qui sont publique) de votre service. Ceci mettra à jour technique, de facturation et de contacts d'administration pour ce service. Vous pouvez activer protection de la confidentialité de domaine si vous voulez masquer votre information de WHOIS."
-
-msgid "Update domain contact details"
-msgstr "Mettre à jour les détails de contact du domaine"
-
-msgid "Address Line 1"
-msgstr "Adresse 1"
-
-msgid "Address Line 2"
-msgstr "Adresse 2"
-
-msgid "Zip"
-msgstr "Code postal"
-
-msgid "Phone number"
-msgstr "Numéro de téléphone"
-
-msgid "Register new domain"
-msgstr "Enregistrer un nouveau domaine"
-
-msgid "Transfer my domain"
-msgstr "Transférer mon domaine"
-
-msgid "Check domain availability"
-msgstr "Vérifiez la disponibilité du domaine"
-
-msgid "Enter new domain name to register"
-msgstr "Entrez le nom du nouveau domaine  pour vous inscrire"
-
-msgid "Check"
-msgstr "Vérifier"
-
-msgid "Continue"
-msgstr "Continuer"
-
-msgid "I want to use my nameservers"
-msgstr "Je veux utiliser mon nom de serveur"
-
-msgid "Enter your domain name to transfer"
-msgstr "Entrez votre nom de domaine à transférer"
-
-msgid "Transfer price"
-msgstr "Prix de transfert"
-
-msgid "Enter domain transfer code"
-msgstr "Entrez le code de transfert de domaine"
-
-msgid "Download file"
-msgstr "Télécharger le fichier"
-
-msgid "Download"
-msgstr "Télécharger"
-
-msgid "Manage hosting account"
-msgstr "Gérer un compte d'hébergement"
-
-msgid "Username"
-msgstr "Nom d'utilisateur"
-
 msgid "Server IP"
-msgstr "IP du serveur"
+msgstr "IP serveur"
 
 msgid "Server Hostname"
-msgstr "Nom d'hôte du serveur"
+msgstr "Hôte du serveur"
 
 msgid "Hosting plan"
 msgstr "Plan d'hébergement"
-
-msgid "Bandwidth"
-msgstr "Bande passante"
 
 msgid "per month"
 msgstr "Par mois"
 
 msgid "Disk quota"
-msgstr "Capacité du disque"
+msgstr "Quota de disque"
 
 msgid "Manage domain"
-msgstr "Gérer le domaine"
+msgstr "Gérer domaine"
 
 msgid "Jump to cPanel"
-msgstr "Accéder à cPanel"
+msgstr "Aller à cPanel"
 
 msgid "Reseller control panel"
-msgstr "Panneau de contrôle revendeur"
+msgstr "CPanel revendeur"
 
 msgid "Nameservers"
-msgstr "Nomserveur"
+msgstr "DNS"
+
+msgid "Nameserver 1"
+msgstr "DNS 1"
+
+msgid "Nameserver 2"
+msgstr "DNS 2"
+
+msgid "Nameserver 3"
+msgstr "DNS 3"
+
+msgid "Nameserver 4"
+msgstr "DNS 4"
 
 msgid "FTP details"
-msgstr "Détails FTP"
+msgstr "Détails  FTP"
 
 msgid "Use these details to connect to your FTP account."
-msgstr "Utilisez ces identifiants pour vous connecter à votre compte FTP"
+msgstr "Utilisez ces informations pour vous connecter à votre compte FTP."
 
 msgid "FTP IP"
 msgstr "IP FTP"
@@ -897,61 +1138,297 @@ msgid "FTP Password"
 msgstr "Mot de passe FTP"
 
 msgid "Change account password"
-msgstr "Changer le mot de passe"
+msgstr "Changer le mot de passe du compte"
 
 msgid "Change your FTP cPanel SSH password."
-msgstr "Changer votre mot de passe FTP cPanel SSH."
+msgstr "Changez votre mot de passe FTP cPanel SSH."
 
 msgid "Password Confirm"
-msgstr "Confirmation mot de passe"
+msgstr "Valider Mot de passe"
 
 msgid "Change username"
-msgstr "Changer le nom de compte"
-
-msgid "Change"
-msgstr "Changer"
+msgstr "Changer le nom d'utilisateur"
 
 msgid "Change domain"
-msgstr "Changer de domaine"
+msgstr "Changez domaine"
 
-msgid "Please configure domain for your hosting account"
-msgstr "S'il vous plaît configurer de domaine pour votre compte d'hébergement"
+msgid "Vps hostname"
+msgstr "Nom du hôt VPS"
 
-msgid "Use own"
-msgstr "Use own"
+msgid "Enter hostname for VPS: mydomain.com"
+msgstr "Entrez le nom d'hôte pour VPS: mondomain.com"
 
-msgid "Transfer"
-msgstr "transférer"
+msgid "OS template"
+msgstr "Template d'OS"
 
-msgid "I will use my existing domain and update nameservers"
-msgstr "Je vais utiliser mon nom de domaine existant et mettre à jour le nomserveur"
+msgid "Become Partner"
+msgstr "Devenir partenaire"
 
-msgid "Enter your domain name"
-msgstr "Entrer votre nom de domaine"
+msgid "Login and become partner"
+msgstr "Connectez-vous et devenir partenaire"
 
-msgid "Register a new domain"
-msgstr "Enregistrer un nouveau domaine"
+msgid "Manage profile"
+msgstr "Gérer le profil"
 
-msgid "Transfer your domain from another registrar"
-msgstr "Transférer votre domaine depuis un autre registre"
+msgid "Allow to be listed in partners list"
+msgstr "Permettre d'être inscrits sur la liste des partenaires"
 
-msgid "Account configuration"
-msgstr "Configuration du compte"
+msgid "Your website where you sell BoxBilling licenses"
+msgstr "Votre site web où vous vendez des licences"
 
-msgid "Enter your account username"
-msgstr "Entrer votre nom d'utilisateur"
+msgid "URL to your logo"
+msgstr "URL de votre logo"
+
+msgid "Update partner information"
+msgstr "Mise à jour des informations de partenaire"
+
+msgid "Public profile"
+msgstr "Profil public"
+
+msgid "Purchase License"
+msgstr "Acheter une licence"
+
+msgid "License key"
+msgstr "Clé de licence"
+
+msgid "Valid IPs"
+msgstr "Des Adress IPs Valide"
+
+msgid "Valid hostnames"
+msgstr "Noms d'hôtes valides"
+
+msgid "Valid versions"
+msgstr "Versions valides"
+
+msgid "Valid install paths"
+msgstr "Chemins d'installation valides"
+
+msgid "Profile details"
+msgstr "Détail du profil"
+
+msgid "Keep your profile up to date"
+msgstr "Gardez votre profil à jour"
+
+msgid "Change Password"
+msgstr "Modifier mot de passe"
+
+msgid "Gravatar"
+msgstr "Gravatar"
+
+msgid "Currency"
+msgstr "Devise"
+
+msgid "API"
+msgstr "API"
+
+msgid "Update profile"
+msgstr "Mettre à jour le profil"
+
+msgid "Company Name"
+msgstr "Nom de l'entreprise"
+
+msgid "Phone Country Code"
+msgstr "Code du Téléphone de votre pays"
+
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Address 2"
+msgstr "Addresse 2"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Zip/Postal Code"
+msgstr "Zip / Code Postal"
+
+msgid "API key"
+msgstr "Clé API"
+
+msgid ""
+"API key allows integration with external applications. You will need this "
+"key for authentication."
+msgstr ""
+"Clé API permet l'intégration avec des applications externes. Vous aurez "
+"besoin de cette clé pour l'authentification."
+
+msgid "Warning! Resetting the key will break existing applications using it."
+msgstr ""
+"Attention! La Réinitialisation de la clé peut briser les applications "
+"existantes en utilisation."
+
+msgid "Your API key"
+msgstr "Votre clé API"
+
+msgid "Reset key"
+msgstr "Réinitialisation du clé"
+
+msgid "Please register with"
+msgstr "S'il vous plaît inscrivez-vous avec"
+
+msgid "at "
+msgstr "à"
+
+msgid ""
+"to change your profile image. Gravatar image updates may not appear "
+"immediately."
+msgstr ""
+"Pour changer votre image de profil. Mises à jour d'image Gravatar peuvent ne "
+"pas apparaître immédiatement."
+
+msgid "Your profile currency is"
+msgstr "Votre devise de profil est"
+
+msgid ""
+"Create new client profile if you want to manage your money in other currency"
+msgstr ""
+"Créer un nouveau profil de client, si vous souhaitez gérer votre argent dans "
+"une autre devise"
+
+msgid ""
+"Your profile currency will be defined after your first order. Once your "
+"currency is set, all your profile accounting will be managed in that "
+"currency and can not be changed."
+msgstr ""
+"Votre devise de profil sera défini après votre première commande. Une fois "
+"que votre devise est réglé, toute votre comptabilité de profil sera géré "
+"dans cette devise et ne peut être modifié."
+
+msgid "Addons & extras"
+msgstr "Extensions et extras"
+
+msgid "Domain management"
+msgstr "Gestion de domaine"
+
+msgid "Domain details"
+msgstr "Les détails de domaine"
+
+msgid "Registration date"
+msgstr "Date d'inscription"
+
+msgid "Expires at"
+msgstr "Expire à"
+
+msgid "Domain Secret"
+msgstr "Domaine secret"
+
+msgid ""
+"All domain names (except a .EU, .UK domain name) have a Domain (Transfer) "
+"Secret Key/Authorization Code (EPP Code) associated with them. This would be "
+"required if you want to transfer service."
+msgstr ""
+"Tous les noms de domaine (sauf les . UE. UK) ont des (transfert) clé "
+"secrète / Code d'autorisation (EPP Code) associés avec eux. Ce serait "
+"nécessaire si vous souhaitez transférer service."
+
+msgid "Get EPP code"
+msgstr "Obtenir le code EPP"
+
+msgid "Domain Protection"
+msgstr "Protection de domaine"
+
+msgid ""
+"Domain locking is a security enhancement to prevent unauthorized transfers "
+"of your domain to another registrar or web host by \"locking\" your domain "
+"name servers."
+msgstr ""
+
+msgid "Unlock"
+msgstr "Déverrouillez"
+
+msgid "Lock"
+msgstr "Verrouiller"
+
+msgid "Domain Privacy Settings"
+msgstr "Domaine Paramètres de confidentialité"
+
+msgid ""
+"If you would like to hide domain contact information which is shown on WHOIS "
+"you can enable privacy protection. Once domain privacy protection is enabled "
+"no one will know who registered this service. And once you decide to disable "
+"privacy protection, information that is listed above on \"Update Domain "
+"Contact Details\" section will be seen on domain WHOIS again."
+msgstr ""
+
+msgid "Disable Privacy protection"
+msgstr "Désactiver la protection de la vie privée"
+
+msgid "Enable Privacy protection"
+msgstr "Activer la protection de la vie privée"
+
+msgid "Domain Nameservers"
+msgstr "DNS du domaine"
+
+msgid ""
+"If you would like to host this domain with another company you can update "
+"nameservers."
+msgstr ""
+"Si vous souhaitez organiser ce domaine avec une autre entreprise, vous "
+"pouvez mettre à jour les DNS."
+
+msgid "Update nameservers"
+msgstr "Mise à jour DNS"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Domain Contact Details"
+msgstr "D&tails du contact de domaine"
+
+msgid ""
+"Domain contact details will be displayed once someone will check WHOIS "
+"output (which is public) of your service. This will update Technical, "
+"Billing and Admin contacts for this service. You can enable domain privacy "
+"protection if you want to hide your public WHOIS information."
+msgstr ""
+"Les coordonnées du contact domaine  seront affichés une fois que quelqu'un "
+"vérifie sortie WHOIS (qui est publique) de votre service. Cela mettra à jour "
+"technique, de facturation et d'administration pour les contacts de ce "
+"service. Vous pouvez activer domaine de protection de la vie privée si vous "
+"voulez cacher vos informations WHOIS public."
+
+msgid "Update domain contact details"
+msgstr "Mise à jour les coordonnées du contact du votre domaine "
+
+msgid "Address Line 1"
+msgstr "Adresse ligne 1"
+
+msgid "Address Line 2"
+msgstr "Adresse ligne 2"
+
+msgid "Zip"
+msgstr "Zip"
+
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+msgid "How to reset my password?"
+msgstr "Comment réinitialiser mon mot de passe?"
+
+msgid ""
+"Enter your email to reset password. You will receive new password after "
+"reset link is confirmed."
+msgstr ""
+"Entrez votre email pour réinitialiser votre mot de passe. Vous recevrez "
+"nouveau mot de passe après  réinitialisation est confirmée."
+
+msgid "Password reset confirmation email was sent"
+msgstr "Mot de passe réinitialisé e-mail de confirmation a été envoyé."
 
 msgid "License details"
-msgstr "Détails de license"
+msgstr "Détails sur la licence"
 
 msgid "Key"
 msgstr "Clé"
 
-msgid "Valid IPs"
-msgstr "IP valides"
-
 msgid "All ips"
-msgstr "Tous les IP"
+msgstr "Tous les conseil"
 
 msgid "Valid Domains"
 msgstr "Domaines valides"
@@ -966,125 +1443,4400 @@ msgid "All versions"
 msgstr "Toutes les versions"
 
 msgid "Valid Install paths"
-msgstr "Chemins d'installation valide"
+msgstr "Chemins d'installation valides"
 
 msgid "All paths"
-msgstr "Tous les chemins d'installation"
+msgstr "Tous les chemins"
 
 msgid "Reset license"
-msgstr "Réinitialiser la license"
+msgstr "Réinitialiser licence"
 
 msgid "You can reset your license parameters if you have changed your server"
-msgstr "Vous pouvez réinitialiser vos paramètres de licence si vous avez modifié votre serveur"
-
-msgid "Are you sure?"
-msgstr "Êtes-vous sûr?"
-
-msgid "Contact us"
-msgstr "Contacter-nous"
-
-msgid "Name"
-msgstr "Nom"
-
-msgid "Send"
-msgstr "Envoyer"
+msgstr ""
+"Vous pouvez réinitialiser les paramètres de votre licence si vous avez "
+"changé votre serveur"
 
 msgid "Ticket details"
-msgstr "Détails du billet"
+msgstr "Détails de ticket"
 
 msgid "Author"
 msgstr "Auteur"
 
-msgid "Time opened"
-msgstr "Ouvert depuis"
+msgid "Please configure domain for your hosting account"
+msgstr "S'il vous plaît configurer votre domaine pour le compte d'hébergement"
 
-msgid "Ticket ID"
-msgstr "ID Billet"
+msgid "Use own"
+msgstr "Utilisez le notre"
 
-msgid "Related to"
-msgstr "Concernant"
+msgid "Transfer"
+msgstr "Transférer"
 
-msgid "Service #"
-msgstr "Service #"
+msgid "I will use my existing domain and update nameservers"
+msgstr ""
+"Je vais utiliser mon nom de domaine existant et je vais métre à jour mes DNS"
 
-msgid "Tickets list"
-msgstr "Liste des billet"
+msgid "Enter your domain name"
+msgstr "Entrez votre nom de domaine"
 
-msgid "Close ticket"
-msgstr "Billet fermé"
+msgid "Register a new domain"
+msgstr "Enregistrez un nouveau nom de domaine"
 
-msgid "Support tickets"
-msgstr "Billet de support"
+msgid "Check"
+msgstr "Vérifier"
 
-msgid "Need an answer? We are here to help"
-msgstr "Besoin d'une réponse? Nous sommes là pour aider"
+msgid "Transfer your domain from another registrar"
+msgstr "Transférez votre domaine d'un autre registrar"
 
-msgid "Submit new ticket"
-msgstr "Soumettre un nouveau billet"
+msgid "Transfer price"
+msgstr "Prix ​​de transfert"
 
-msgid "Submit new support ticket"
-msgstr "Soumettre un nouveau billet de support"
+msgid "Enter domain transfer code"
+msgstr "Entrez le code de transfert de domaine"
 
-msgid "Addons & extras"
-msgstr "Addons & extras"
+msgid " Year/s @ "
+msgstr "Année / s pour"
 
-msgid "Select currency"
-msgstr "Sélectionner la devise"
+msgid "My Products & Services"
+msgstr "Mes Produits & Services"
 
-msgid "Home"
-msgstr "Accueil"
+msgid "Ordered Services"
+msgstr "Services commandés"
 
-msgid "Support"
-msgstr "Support"
+msgid "Product/Service"
+msgstr "Produit / Service"
 
-msgid "Payment history"
-msgstr "Hisorique de paiement"
+msgid "Next due date"
+msgstr "la date du prochain paiement"
 
-msgid "Total price:"
-msgstr "Prix total:"
+msgid "Service details"
+msgstr "Détails du service"
 
-msgid "Quantity:"
-msgstr "Quantité:"
+msgid "All information about your service"
+msgstr "Toutes les informations sur votre service"
 
-msgid "Setup Price"
-msgstr "Prix d''installation"
+msgid "Product name"
+msgstr "Nom du produit"
+
+msgid "Payment amount"
+msgstr "Montant du paiement"
+
+msgid "Billing cycle"
+msgstr "Cycle de facturation"
+
+msgid "Order status"
+msgstr "L'état des commandes"
+
+msgid "Order created"
+msgstr "Commande créé"
+
+msgid "Activated at"
+msgstr "Activé à"
+
+msgid "Renewal date"
+msgstr "Date de renouvellement"
+
+msgid "Order notes"
+msgstr "Note de commande"
+
+msgid "Active support tickets"
+msgstr "Tickets de soutien actives"
+
+msgid "Renew now"
+msgstr "Renouveler maintenant"
+
+msgid "Request Upgrade"
+msgstr "Demande de mise à niveau"
+
+msgid "Open ticket"
+msgstr "Ticket ouvert"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Request Cancellation"
+msgstr "Demande d'annulation"
+
+msgid "I would like to cancel"
+msgstr "Je voudrais annuler"
+
+msgid "Reason"
+msgstr "Raison"
+
+msgid "Open new support ticket regarding this order"
+msgstr "Ouvrir un nouveau ticket de support concernant cette commande"
+
+msgid ""
+"Submit new support ticket. Ticket will be visible in support section after "
+"submission"
+msgstr ""
+"Soumettre un nouveau ticket de support. Le ticket sera visible dans la "
+"section de support après la soumission"
+
+msgid "Request upgrade"
+msgstr "Demande de mise à niveau"
+
+msgid "I would like to upgrade"
+msgstr "Je voudrais mettre à niveau"
+
+msgid "Upgrade to"
+msgstr "Mise à niveau à"
+
+msgid "Notes"
+msgstr "Remarques"
+
+msgid "Request"
+msgstr "Demander"
+
+msgid "Addons you have ordered with this service"
+msgstr "Extensions que vous avez commandés avec ce service"
+
+msgid "Billing Cycle"
+msgstr "Cycle de facturation"
+
+msgid "Back to services"
+msgstr "Retour aux Services"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Select Product"
+msgstr "Choisissez un produit"
+
+msgid "Choose products we offer for selling"
+msgstr "Choisissez des produits que nous offrons "
+
+msgid "Starting from:"
+msgstr "A partir de:"
+
+msgid "View products"
+msgstr "Voir les produits"
 
 msgid "Select product"
-msgstr "Sélectionner le produit"
+msgstr "Choisissez le produit"
 
 msgid "Confirm"
-msgstr "Confirmer"
+msgstr "Confirmez"
 
-#~ msgid "Payment"
-#~ msgstr "Payment"
+msgid "What are you looking for?"
+msgstr "Qu'est-ce que vous cherchez?"
 
-#~ msgid "Instructions to make payment"
-#~ msgstr "Instructions to make payment"
+msgid "Search"
+msgstr "Rechercher"
 
-#~ msgid "Please wait ..."
-#~ msgstr "Please wait ..."
+msgid "Try using other keyword. No matches not for keyword:"
+msgstr ""
+"Essayez d'utiliser d'autres mots clés. Aucune correspondance pour le mot clé:"
 
-#~ msgid "Discount:"
-#~ msgstr "Discount:"
+msgid "Affiliates"
+msgstr "Affiliés"
 
-#~ msgid "Number test"
-#~ msgstr "Number test"
+msgid "Client Area"
+msgstr "Espace Client"
 
-#~ msgid "Change your avatar at"
-#~ msgstr "Change your avatar at"
+msgid "Tickets waiting your reply"
+msgstr "Tickets en attente de votre réponse"
 
-#~ msgid "Reset account"
-#~ msgstr "Reset account"
+msgid "ID"
+msgstr "ID"
 
-#~ msgid ""
-#~ "This function resets your account completely. All data on your account "
-#~ "will be lost."
-#~ msgstr ""
-#~ "This function resets your account completely. All data on your account "
-#~ "will be lost."
+msgid "All Invoices"
+msgstr "Toutes les factures"
 
-#~ msgid "I understand that my account data will be completely lost."
-#~ msgstr "I understand that my account data will be completely lost."
+msgid "Active"
+msgstr "Actif"
 
-#~ msgid "en_US"
-#~ msgstr "English"
+msgid "Soon expires"
+msgstr "Expire bientôt"
+
+msgid "All services"
+msgstr "Tous les services"
+
+msgid "New order"
+msgstr "Nouvel ordre"
+
+msgid "Tickets"
+msgstr "Tickets"
+
+msgid "Open"
+msgstr "Ouvert"
+
+msgid "On Hold"
+msgstr "En attente"
+
+msgid "All tickets"
+msgstr "Tous les tickets"
+
+msgid "New ticket"
+msgstr "Nouveau ticket"
+
+msgid "Recent orders"
+msgstr "Les commandes récentes"
+
+msgid "Recent emails"
+msgstr "e-mails récents"
+
+msgid "Order products and services"
+msgstr "Produits et services ordre"
+
+msgid "Become a member and manage services"
+msgstr "Devenez membre et gérer les services"
+
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+msgid "Contact us for more information"
+msgstr "Contactez-nous pour plus d'informations"
+
+msgid "Announcements"
+msgstr "Annonces"
+
+msgid "Latest news & announcements"
+msgstr "Dernières nouvelles et annonces"
+
+msgid "Browse our KB for answers and FAQs"
+msgstr "Parcourir la section des questions et réponses"
+
+msgid "Invoicing Software"
+msgstr "Logiciel de facturation"
+
+msgid "Powered by BoxBilling invoicing software"
+msgstr "Powered by BAABELWEB"
+
+msgid "Example module"
+msgstr "Module d'exemple"
+
+msgid "Example module title"
+msgstr "Titre du module d'expample"
+
+msgid "See protected content"
+msgstr "Voir le contenu protégé"
+
+msgid "This content can be seen only if client is logged in"
+msgstr "Ce contenu peut être vu que si le client est connecté"
+
+msgid "Your protected content"
+msgstr "Votre contenu protégé"
+
+msgid "Register new domain"
+msgstr "Créer un nouveau domaine"
+
+msgid "Transfer my domain"
+msgstr "Transférer mon nom de domaine"
+
+msgid "Check domain availability"
+msgstr "Vérifiez la disponibilité de domaine"
+
+msgid "Enter new domain name to register"
+msgstr "Entrer un nouveau nom de domaine pour l'inscrire"
+
+msgid "I want to use my nameservers"
+msgstr "Je veux utiliser mes DNS"
+
+msgid "Enter your domain name to transfer"
+msgstr "Entrez votre nom de domaine à transférer"
+
+msgid "Select currency"
+msgstr "Sélectionnez la devise"
+
+msgid "Emails we have sent you"
+msgstr "Les e-mails que nous vous avons envoyés"
+
+msgid "Here you can track emails we have sent you"
+msgstr "Ici vous pouvez suivre les emails que nous vous avons envoyés"
+
+msgid "Email subject"
+msgstr "Sujet d'Email"
+
+msgid "Date sent"
+msgstr "Date d'envoi"
+
+msgid "Could not connect to whois :server server"
+msgstr "Impossible de se connecter à whois: server de serveur"
+
+msgid "Error creating "
+msgstr "erreur de création"
+
+msgid "Only active orders can be suspended"
+msgstr "Seules les commandes actives peuvent être suspendus"
+
+msgid "Can not cancel "
+msgstr "Impossible d'annuler"
+
+msgid "Service "
+msgstr "Service "
+
+msgid "Can not remove hosting plan which has active accounts"
+msgstr ""
+"Impossible de supprimer le plan d'hébergement qui dispose de comptes actifs"
+
+msgid "Invoice item title is missing"
+msgstr "Titre de l'article facture est absente"
+
+msgid ":product setup"
+msgstr ":product setup"
+
+msgid "Could not activate proforma item. Order :id not found"
+msgstr "Impossible d'activer le objet proforma . Commande :id introuvable"
+
+msgid "Filename is missing in product config."
+msgstr "Nom du fichier est absent dans la configuration du produit."
+
+msgid "Parameter :param does not exist"
+msgstr "Paramètre :param n'existe pas"
+
+msgid "Theme was not found in path :path"
+msgstr "Le Thème n'a pas été trouvée dans le chemin :path"
+
+msgid "Theme manifest file :file was not found"
+msgstr "Fichier manifeste Thème :file n'a pas été trouvé"
+
+msgid "Unable to decode theme manifest file :file"
+msgstr "Impossible de décoder fichier manifeste de thème :file"
+
+msgid ""
+"Please check if you have configured FTP layer properly in Configuration > "
+"General settings > FTP layer."
+msgstr ""
+"S'il vous plaît vérifier si vous avez configuré correctement couche FTP dans "
+"Configuration> Paramètres généraux> couche FTP."
+
+msgid ""
+"Please make sure that FTP Root is defined properly. Could not find bb-config."
+"php file in :path"
+msgstr ""
+"S'il vous plaît assurez-vous que FTP racine est défini correctement. "
+"Impossible de trouver le fichier bb-config.php :path"
+
+msgid ""
+"You have reached free version limit. Upgrade to PRO version of BoxBilling if "
+"you want this limit removed."
+msgstr ""
+"Vous avez atteint la version gratuite limite. Mise à jour vers la version "
+"PRO de BoxBilling si vous voulez cette limite supprimée."
+
+msgid ""
+"BoxBilling license key must be defined in bb-config.php file as BB_LICENSE "
+"constant."
+msgstr ""
+"BoxBilling clé de licence doit être défini dans le fichier bb-config.php "
+"comme constante BB_LICENSE."
+
+msgid ""
+"PHP curl extension is disabled on your server. Please enable php curl "
+"extension."
+msgstr ""
+"L'extension PHP cURL est désactivé sur votre serveur. S'il vous plaît "
+"permettre l'extension PHP cURL."
+
+msgid "Can not remove group with clients"
+msgstr "Vous ne pouvez pas supprimer le groupe avec les clients"
+
+msgid "Could not find main domain product"
+msgstr "Impossible de trouver le produit de domaine principal"
+
+msgid "Hosting product must have domain configuration"
+msgstr "Produit d'hébergement doit avoir la configuration du domaine"
+
+msgid "Domain action is missing"
+msgstr "L'action de domaine est manquante"
+
+msgid "Hosting product must have defined register_sld parameter"
+msgstr "Produit d'hébergement doit avoir défini le paramètre register_sld"
+
+msgid "Hosting product must have defined register_tld parameter"
+msgstr "Produit d'hébergement doit avoir défini le paramètre register_tld"
+
+msgid "Hosting product must have defined transfer_sld parameter"
+msgstr "Produit d'hébergement doit avoir défini le paramètre transfer_sld"
+
+msgid "Hosting product must have defined transfer_tld parameter"
+msgstr "Produit d'hébergement doit avoir défini le paramètre transfer_tld"
+
+msgid "Can not remove category which has articles"
+msgstr "Impossible de supprimer la catégorie qui contient des articles"
+
+msgid ""
+"Hosting product is not configured completely. Configure server for hosting "
+"product."
+msgstr ""
+"Produit d'hébergement n'est pas configuré complètement. Configurer le "
+"serveur pour le produit d'hébergement."
+
+msgid ""
+"Hosting product is not configured completely. Configure hosting plan for "
+"hosting product."
+msgstr ""
+"Produit d'hébergement n'est pas configuré complètement. Configurer plan "
+"d'hébergement pour les produits d'hébergement."
+
+msgid "Domain name is not valid."
+msgstr "Nom de domaine n'est pas valide."
+
+msgid "Domain extension is not valid."
+msgstr "Extension de domaine n'est pas valide."
+
+msgid "Server from order configuration was not found"
+msgstr "Serveur de configuration de la commande n'a pas été trouvé"
+
+msgid "Hosting plan from order configuration was not found"
+msgstr ""
+"Plan d'hébergement de la configuration de la commande n'a pas été trouvé"
+
+msgid "Could not activate order. Service was not created"
+msgstr "Impossible d'activer l'ordre. Service n'a pas été créé"
+
+msgid "Order :id has no active service"
+msgstr "Commande :id n'a pas de service actif"
+
+msgid "Account password is missing or is not valid"
+msgstr "Mot de passe du compte est introuvable ou n'est pas valide"
+
+msgid "Account ip is missing or is not valid"
+msgstr "IP du compte est introuvable ou n'est pas valide"
+
+msgid "Domain sld or tld is missing"
+msgstr "Domaine SLD ou TLD est manquant"
+
+msgid "Can not refund invoice with negative amount"
+msgstr "Ne pouvons pas rembourser la facture avec montant négatif"
+
+msgid ""
+"You must have at least one active order before you can add funds so you "
+"cannot proceed at the current time!"
+msgstr ""
+"Vous devez avoir au moins une commande  actif avant que vous pouvez ajouter "
+"des fonds ce qui veux dire vous ne pouvez pas passer à l'heure actuelle!"
+
+msgid "Amount is not valid"
+msgstr "Montant n'est pas valide"
+
+msgid "Payment for invoice :serie:id [:title]"
+msgstr "Le paiement de la facture :serie:id [:title]"
+
+msgid "Payment for invoice :serie:id"
+msgstr "Le paiement de la facture :serie:id"
+
+msgid "Can not remove invoice. It was paid but services were not activated"
+msgstr ""
+"Impossible de supprimer la facture. Il a été payé, mais les services n'ont "
+"pas été activée"
+
+msgid "License plugin :plugin was not found"
+msgstr "Plug-in de licence :plugin n'a pas été trouvé"
+
+msgid "License plugin do not have generate method"
+msgstr "Plug-in de licence n'ont pas générer méthode"
+
+msgid "Custom plugin method :method is forbidden"
+msgstr "Méthode du plugin personnalisé :method Il est interdit."
+
+msgid "Plugin class file :file was not found"
+msgstr "Fichier de classe de Plugin :file n'a pas été trouvé"
+
+msgid "Plugin :plugin does not support action :action"
+msgstr "Plugin :plugin ne supporte pas les action :action"
+
+msgid "Can not remove helpdesk which has tickets"
+msgstr "Impossible de supprimer le helpdesk qui a des tickets"
+
+msgid "Currency conversion rate can be zero"
+msgstr "Taux de conversion de devises peut être nul"
+
+msgid "Can not remove default currency"
+msgstr "Impossible de supprimer la devise par défaut"
+
+msgid "This administrator account is protected and can not be removed"
+msgstr "Ce compte administrateur est protégé et ne peut être retiré"
+
+msgid ":product_title"
+msgstr ":product_title"
+
+msgid "Can not remove product category with products"
+msgstr "Impossible de supprimer la catégorie de produit avec des produits"
+
+msgid "Module :mod manifest file is missing"
+msgstr "Module :mod fichier manifeste est manquant"
+
+msgid ""
+"Module :mod manifest file is not valid. Check file syntax and permissions."
+msgstr ""
+"Module :mod fichier manifeste  n'est pas valide. Vérifiez la syntaxe du "
+"fichier et les permissions."
+
+msgid "BoxBilling module :module not found. Was it installed?"
+msgstr "Module BoxBilling :module introuvable. At-elle été installée?"
+
+msgid "BoxBilling core modules can not be installed or removed"
+msgstr "modules de base ne peuvent pas être installés ou retirés"
+
+msgid ""
+"Module can not be installed. It requires at least :min version of "
+"BoxBilling. You are using :v"
+msgstr ""
+"Module peut pas être installé. Il nécessite au moins :version min de "
+"BoxBilling. Vous utilisez :v"
+
+msgid "Could not retrieve version information for extension :ext"
+msgstr ""
+"Impossible de récupérer les informations de version de l'extension :ext"
+
+msgid "Latest :mod version installed. No need to update"
+msgstr "Dernières version :mod installé. Pas besoin de mettre à jour."
+
+msgid "Could not retrieve :ext information"
+msgstr "Impossible de récupérer :ext informations"
+
+msgid "Visit extension site for update information."
+msgstr "Visitez le site de l'extension des informations de mise à jour."
+
+msgid "BoxBilling core modules can not be managed"
+msgstr "modules de base ne peuvent être gérés"
+
+msgid "Could not extract extension zip file"
+msgstr "Impossible d'extraire le fichier zip d'extension"
+
+msgid "Module already installed."
+msgstr "Module déjà installé."
+
+msgid ""
+"Extension can not be moved. Make sure your server write permissions to bb-"
+"modules folder."
+msgstr ""
+"Extension peut pas être déplacé. Assurez-vous que votre serveur "
+"d'autorisations d'écriture dans le dossier BB-modules."
+
+msgid ""
+"Extension can not be moved. Make sure your server write permissions to bb-"
+"themes folder."
+msgstr ""
+"Extension peut pas être déplacé. Assurez-vous que votre serveur "
+"d'autorisations d'écriture dans le dossier bb-thèmes."
+
+msgid ""
+"Extension can not be moved. Make sure your server write permissions to bb-"
+"locale folder."
+msgstr ""
+"Extension peut pas être déplacé. Assurez-vous que votre serveur "
+"d'autorisations d'écriture dans le dossier bb-locale."
+
+msgid ""
+"Extension does not support auto-install deature. Extension must be installed "
+"manually"
+msgstr ""
+"Extension ne supporte pas les fonctionnalité d'auto-install. Extension doit "
+"être installé manuellement"
+
+msgid "Unable to connect to BoxBilling extensiosn site."
+msgstr "Impossible de se connecter au site de BB extensiosn."
+
+msgid "Administrators group can not be removed"
+msgstr "Groupe d'administrateurs ne peut être retiré"
+
+msgid "Can not remove group which has staff members"
+msgstr ""
+"Vous ne pouvez pas supprimer le groupe qui compte des membres du personnel"
+
+msgid ""
+"This is a last message in topic. Remove topic in order to remove this "
+"message."
+msgstr ""
+"Ceci est un dernier message dans le sujet. Retirer le sujet afin de "
+"supprimer ce message."
+
+msgid "Payment gateway :adapter was not found"
+msgstr "Passerelle de paiement :adapter n'a pas été trouvé"
+
+msgid "Invalid payment adapter :adapter"
+msgstr "Adaptateur de paiement invalide :adapter"
+
+msgid ""
+"Are you registering new domain or transfering existing? Action parameter "
+"missing."
+msgstr ""
+"Vous inscrivez un nouveau domaine ou le transfert existant? Paramètre "
+"d'action manquant."
+
+msgid "Invalid domain action."
+msgstr "L'action de domaine non valide."
+
+msgid "Order data must contain :field configuration field"
+msgstr ""
+"Données de commande doivent contenir :field comme champ de configuration"
+
+msgid "Domain name :domain is not valid"
+msgstr "Nom de domaine :domain n'est pas valide"
+
+msgid "Domain TLD is not valid."
+msgstr "Domaine TLD n'est pas valide."
+
+msgid "Domain name is required."
+msgstr "Le nom de domaine est nécessaire."
+
+msgid "Transfer domain type (tld) is required."
+msgstr "Type de domaine de transfert (TLD) est nécessaire."
+
+msgid "Transfer domain name (sld) is required."
+msgstr "Nom de domaine de transfert (SLD) est nécessaire."
+
+msgid "Transfer code is required for domains transfers."
+msgstr "Code de transfert est requise pour les domaines des transferts."
+
+msgid "TLD not found"
+msgstr "TLD introuvable"
+
+msgid ":domain can not be transfered!"
+msgstr ":domain ne peut pas être transféré!"
+
+msgid "Domain registration tld parameter missing."
+msgstr "Paramètre d'enregistrement de domaine (TLD) manquant."
+
+msgid "Domain registration sld parameter missing."
+msgstr "Paramètre d'enregistrement de domaine SLD manquant."
+
+msgid "Years parameter is missing for domain configuration."
+msgstr "Paramètre des ans est absent pour une configuration de domaine."
+
+msgid ":tld can be registered for at least :years years"
+msgstr ":tld peut être inscrit depuis au moins :years ans"
+
+msgid ":domain is already registered!"
+msgstr ":domain est déjà enregistré!"
+
+msgid "Default domain nameservers are not configured"
+msgstr "Serveurs DNS par défaut ne sont pas configurés"
+
+msgid "Nameserver 1 is required"
+msgstr "DNS 1 est nécessaire"
+
+msgid "Nameserver 2 is required"
+msgstr "DNS 2 est nécessaire"
+
+msgid "Required field contact is missing"
+msgstr "Le champ obligatoire contact est manquant"
+
+msgid "Required field :field is missing"
+msgstr "Champs obligatoires :field est manquant"
+
+msgid "Domain name is not valid"
+msgstr "Nom de domaine n'est pas valide"
+
+msgid "Domain can not be transfered"
+msgstr "Domaine ne peut pas être transféré"
+
+msgid "Domain can not be registered"
+msgstr "Domaine ne peut pas être enregistré"
+
+msgid "Period parameter not passed"
+msgstr "Paramètre Période n'est pas passé"
+
+msgid "I'm afraid we are out of stock."
+msgstr "Nous sommes en rupture de stock."
+
+msgid "Addon period parameter not passed"
+msgstr "Paramètre de période Addon pas passé"
+
+msgid "Product not found"
+msgstr "Produit non trouvé"
+
+msgid "Add products to cart before applying promo code"
+msgstr "Ajouter des produits au panier avant d'appliquer le code promo"
+
+msgid "Currency can not be changed. Client already have invoices issued."
+msgstr "Devise ne peut pas être changé. Client a déjà des factures émises."
+
+msgid "Currency can not be changed. Client already have orders."
+msgstr "Devise ne peut pas être changé. Client a déjà des commandes."
+
+msgid "Could not determine domain price. Domain action is missing"
+msgstr ""
+"Impossible de déterminer le prix de domaine. L'action de domaine est "
+"manquante"
+
+msgid "Unknown TLD. Could not determine registration price"
+msgstr "TLD inconnu. Impossible de déterminer le prix d'inscription"
+
+msgid "Domain product can not be removed."
+msgstr "Produit de domaine ne peut pas être supprimé ."
+
+msgid "Unknown transaction #:id type: :type"
+msgstr "Transaction Inconnu #:id type: :type"
+
+msgid ""
+"Could not determine transaction origin. Transaction payment gateway is "
+"unknown."
+msgstr ""
+"Impossible de déterminer l'origine de la transaction. Passerelle de paiement "
+"de la transaction est inconnu."
+
+msgid "Can not handle transaction received from unknown payment gateway: :id"
+msgstr ""
+"Impossible de gérer une transaction reçue d'une passerelle de paiement "
+"inconnue:"
+
+msgid "Transaction :id is not associated with an invoice."
+msgstr "Transaction :id n'est pas associé à une facture."
+
+msgid "Invoice #:id not found"
+msgstr "Facture #:id introuvable"
+
+msgid "Instant payment notification (IPN) did not pass gateway :id validation"
+msgstr ""
+"Notification instantanée de paiement (IPN) n'a pas passé la validation du "
+"passerelle :id "
+
+msgid ""
+"Payment gateway :id method getTransaction should return Payment_Transaction "
+"object"
+msgstr ""
+"Passerelle de paiement :id la methode getTransaction méthode doit retourner "
+"objet Payment_Transaction"
+
+msgid ""
+"Can not create subscription. Subscription id from payment gateway was not "
+"received"
+msgstr ""
+"Impossible de créer un abonnement. ID d'abonnement à partir de la passerelle "
+"de paiement n'a pas été reçu"
+
+msgid "Subscription #:id was not found. Could not unsusbscribe"
+msgstr "Abonnement #:id n'a pas été trouvé. Impossible de désinscrire"
+
+msgid "Only approved transaction can be processed"
+msgstr "Seulement les transactions approuvée peut être traitée"
+
+msgid "Transaction currency :code do not match required currency :required"
+msgstr ""
+"Devise de transaction :code ne correspondent pas à devise requise :required"
+
+msgid ""
+"Transaction status on payment gateway is Pending. Only Complete or Unknown "
+"transactions can be processed."
+msgstr ""
+"Le statut de la transaction sur la passerelle de paiement est en cours. "
+"Seules les transactions complètes ou inconnue peuvent être traitées."
+
+msgid "Define clients currency before adding funds."
+msgstr "Définir le devise pour les clients avant d'ajouter des fonds."
+
+msgid "Funds amount is not valid"
+msgstr "Montant des fonds n'est pas valide"
+
+msgid "Funds description is not valid"
+msgstr "Description des fonds n'est pas valide"
+
+msgid "Client currency do not match invoice currency"
+msgstr "Devise du client ne correspond pas au devise de facturation"
+
+msgid "Can not add negative amount to client balance for debit transaction"
+msgstr ""
+"Impossible d'ajouter montant négatif à l'équilibre du client pour la "
+"transaction de débit"
+
+msgid "Conversion rate can't be 0"
+msgstr "Le taux de conversion ne peut pas être 0"
+
+msgid "Product pricing could not be determined. "
+msgstr "Les prix des produits n'a pu être déterminée."
+
+msgid "Repo class for product was not found"
+msgstr "Classe Repo pour le produit n'a pas été trouvé"
+
+msgid "Unknown Period selected for setup price"
+msgstr "Période inconnu sélectionnée pour le prix d'installation"
+
+msgid "Product :id payment type is recurrent, but period was not selected"
+msgstr ""
+"Produit :id type de paiement est récurrent, mais la période n'a pas été "
+"sélectionné"
+
+msgid "Unknown Period selected for price"
+msgstr "Période inconnu sélectionnée pour le prix"
+
+msgid "Can not remove product which has active orders."
+msgstr "Impossible de supprimer le produit qui a des commandes actives."
+
+msgid "Invalid server manager. Server was not configured properly."
+msgstr ""
+"Gestionnaire de serveur non valide. Serveur n'a pas été configuré "
+"correctement."
+
+msgid "Server manager :adapter is not valid"
+msgstr "Le gestionnaire du serveur :adapter n'est pas valide"
+
+msgid "Can not remove server which has active accounts"
+msgstr "Impossible de supprimer le serveur qui dispose de comptes actifs"
+
+msgid "Domain registrar :adapter was not found"
+msgstr "Registraire de domaine :adapter n'a pas été trouvé"
+
+msgid "Registrar :adapter was not found"
+msgstr "Registraire de domaine :adapter n'a pas été trouvé"
+
+msgid "Registrar adapter :adapter should extend Registrar_AdapterAbstract"
+msgstr ""
+"Adaptateur greffier :adapter devrait s'étendre Registrar_AdapterAbstract"
+
+msgid "Can not remove registrar which has domains"
+msgstr "Impossible de supprimer un registrair qui a domaines"
+
+msgid "Invalid identity"
+msgstr "Identité invalide"
+
+msgid ":module method toApiArray not found"
+msgstr ":module méthode toApiArray introuvable"
+
+msgid "Client api can not be invoked from guest or admin role"
+msgstr ""
+"API client ne peut pas être invoqué à partir rôle d'invité ou administrateur"
+
+msgid "Invalid identity. Clear browser cookies"
+msgstr "Invalide identité. Effacer les cookies de votre navigateur"
+
+msgid "Method :method must contain underscore"
+msgstr "méthode :method doit contenir soulignement"
+
+msgid "BoxBilling module :mod is not installed/activated"
+msgstr "Module BoxBilling :mod n'est pas installé / activé"
+
+msgid "Module api file :file is not available"
+msgstr "Module fichier api :file n'est pas disponible"
+
+msgid "Api class must be instance of Api_Abstract"
+msgstr "Classe Api doit être instance de Api_Abstract"
+
+msgid ":type API call :method does not exist in module :module"
+msgstr ":type API appel :method n'existe pas dans le module :module"
+
+msgid "second"
+msgstr "Deuxième"
+
+msgid "minute"
+msgstr "Minute"
+
+msgid "hour"
+msgstr "heure"
+
+msgid "day"
+msgstr "Jour"
+
+msgid "week"
+msgstr "semaine"
+
+msgid "month"
+msgstr "mois"
+
+msgid "year"
+msgstr "année"
+
+msgid "decade"
+msgstr "dizaine"
+
+msgid "Period Error. Unit :unit is not defined"
+msgstr "Erreur période.L'unité :unit n'est pas définie"
+
+msgid ""
+"Invalid period quantity :qty for unit :unit. Allowed range is from :from to :"
+"to"
+msgstr ""
+"Quantité de période invalide :qty à l'unité :unit. Range permis est  de :to"
+
+msgid "Every week"
+msgstr "Chaque semaine"
+
+msgid "Every month"
+msgstr "Chaque mois"
+
+msgid "Every 3 months"
+msgstr "Tous les 3 mois"
+
+msgid "Every 6 months"
+msgstr "Tous les 6 mois"
+
+msgid "Every year"
+msgstr "Chaque année"
+
+msgid "Every 2 years"
+msgstr "Tous les 2 ans"
+
+msgid "Every 3 years"
+msgstr "Tous les 3 ans"
+
+msgid "Every :number day"
+msgstr "Chaque :number jour(s)"
+
+msgid "Every :number week(s)"
+msgstr "Chaque :number semaine (s)"
+
+msgid "Every :number months"
+msgstr "Chaque :number mois"
+
+msgid "Every :number years"
+msgstr "Chaque :number ans"
+
+msgid "Unit not defined"
+msgstr "L'unité n'est pas définie"
+
+msgid "Can not determine months amount from unit"
+msgstr "Impossible de déterminer le montant de l'unité mois"
+
+msgid "CURL extension is not enabled"
+msgstr "L'extension CURL n'est pas activé"
+
+msgid "Service class :class was not found in :path"
+msgstr "classe de service :class n'a pas été trouvé dans :path"
+
+msgid "Client controller class :class was not found in :path"
+msgstr "Classe de contrôleur du client :class n'a pas été trouvé dans :path"
+
+msgid "Admin controller class :class was not found in :path"
+msgstr "Classe de contrôleur admin :class n'a pas été trouvé dans :path"
+
+msgid "Core module can not be updated"
+msgstr "Module de base ne peut pas être mis à jour"
+
+msgid ""
+"FTP extension is not enabled in PHP. You will not be able to use automatic "
+"updates and other automation."
+msgstr ""
+"L'extension FTP n'est pas activé dans PHP. Vous ne serez pas en mesure "
+"d'utiliser les mises à jour automatiques et autres automation."
+
+msgid "The ftp PHP extension is not available"
+msgstr "L'extension PHP FTP n'est pas disponible"
+
+msgid "FTP hostname is required"
+msgstr "FTP hôte est nécessaire"
+
+msgid "FTP username is required"
+msgstr "Nom d'utilisateur FTP est nécessaire"
+
+msgid "FTP password is required"
+msgstr "Mot de passe FTP est nécessaire"
+
+msgid "Failed to connect to FTP Server :host : :port"
+msgstr "Impossible de se connecter à un serveur FTP :host : :port"
+
+msgid "FTP Username/Password incorrect for :usernmae"
+msgstr "Nom d'utilisateur FTP / Mot de passe incorrect pour :usernmae"
+
+msgid "Resource is not a stream"
+msgstr "Ressources n'est pas un flux"
+
+msgid "Mode cannot be changed on existing streams"
+msgstr "Mode ne peut pas être changé sur les flux existants"
+
+msgid ":stream cannot be opened with mode :mode"
+msgstr ":stream ne peut être ouvert avec le mode :mode"
+
+msgid "Unable to write to stream"
+msgstr "Impossible d'écrire pour flux"
+
+msgid ":module method getSearchQuery not found"
+msgstr ":module méthode getSearchQuery est introuvable"
+
+msgid "Invalid :module method getSearchQuery return"
+msgstr "Return invalide :module méthode getSearchQuery"
+
+msgid "Page :url not found"
+msgstr "La Page :url est introuvable"
+
+msgid "Page not found"
+msgstr "Page introuvable"
+
+msgid "File :file does not exist"
+msgstr "Le fichier :file n'existe pas"
+
+msgid "Invalid zip file"
+msgstr "Zip invalide"
+
+msgid "Zip extraction failed"
+msgstr "Extraction postal échoué"
+
+msgid "Unknown mail transport: :transport"
+msgstr "Transport de courrier inconnu: :transport"
+
+msgid "SMTP host not configured"
+msgstr "Hôte SMTP non configuré"
+
+msgid "SMTP port not configured"
+msgstr "Port SMTP non configuré"
+
+msgid "SMTP hostname is not configured."
+msgstr "SMTP hostname n'est pas configurée."
+
+msgid "Missing log message"
+msgstr "Message du journal des rapport  est manquant"
+
+msgid "Bad log priority"
+msgstr "Mauvaise priorité du journal des rapport "
+
+msgid "Email is not valid"
+msgstr "Le email n'est pas valide"
+
+msgid "Password too short!"
+msgstr ""
+
+msgid "Password must include at least one number!"
+msgstr ""
+
+msgid "Password must include at least one letter!"
+msgstr ""
+
+msgid "Clients logins history"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "Due at"
+msgstr ""
+
+msgid "Reminded at"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Serie and number"
+msgstr ""
+
+msgid "Tax"
+msgstr ""
+
+msgid "Text before invoice items table"
+msgstr ""
+
+msgid "Text after invoice items table"
+msgstr ""
+
+msgid "Company VAT"
+msgstr ""
+
+msgid "Company Number"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Invoice items"
+msgstr ""
+
+msgid "Droid Tweak settings"
+msgstr ""
+
+msgid "Configuration updated"
+msgstr ""
+
+msgid "Payment gateway"
+msgstr ""
+
+msgid "Default Help desk"
+msgstr ""
+
+msgid "Default Ticket subject"
+msgstr ""
+
+msgid "Default ticket subject"
+msgstr ""
+
+msgid "Ticket content"
+msgstr ""
+
+msgid "Filter transactions"
+msgstr ""
+
+msgid "ID on payment gateway"
+msgstr ""
+
+msgid "Invoice Id"
+msgstr ""
+
+msgid "Payment Gateway"
+msgstr ""
+
+msgid "Received at"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Processed"
+msgstr ""
+
+msgid "System activity"
+msgstr ""
+
+msgid "Ip"
+msgstr ""
+
+msgid "Birthday"
+msgstr ""
+
+msgid "You are"
+msgstr ""
+
+msgid "Partners list"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Sales"
+msgstr ""
+
+msgid "Signup Date"
+msgstr ""
+
+msgid "Global partners limits and settings"
+msgstr ""
+
+msgid "Default product which partners are reselling."
+msgstr ""
+
+msgid "Default order limit for partner per day. Used to prevent API abuse"
+msgstr ""
+
+msgid "Optional rules for becoming partner"
+msgstr ""
+
+msgid "Product which must be ordered before becoming partner"
+msgstr ""
+
+msgid "Check partners balance before creating new order for available amount"
+msgstr ""
+
+msgid "How much money must be on clients balance to become a partner"
+msgstr ""
+
+msgid "License settings"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "Plugin"
+msgstr ""
+
+msgid "Validate IP"
+msgstr ""
+
+msgid "Validate Hostname"
+msgstr ""
+
+msgid "Validate Version"
+msgstr ""
+
+msgid "Validate Path"
+msgstr ""
+
+msgid "License plugins"
+msgstr ""
+
+msgid ""
+"BoxBilling gives you ability to provide your own license generation script. "
+"Follow instructions bellow to install new license plugin"
+msgstr ""
+
+msgid "License plugin is PHP class \"License_PluginName\" with one method"
+msgstr ""
+
+msgid "Take a look at default plugin at"
+msgstr ""
+
+msgid "Create your plugin and place it to"
+msgstr ""
+
+msgid "BoxBilling will automatically detect new plugin"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "BoxBilling documentation"
+msgstr ""
+
+msgid "for more information."
+msgstr ""
+
+msgid "Import existing"
+msgstr ""
+
+msgid "Domain name"
+msgstr ""
+
+msgid "Domain TLD"
+msgstr ""
+
+msgid "News and announcements"
+msgstr ""
+
+msgid "New announcement"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Email templates"
+msgstr ""
+
+msgid "New template"
+msgstr ""
+
+msgid "Email settings"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid ""
+"The list is empty. Depending on modules enabled email templates will be "
+"inserted after first event occurrence."
+msgstr ""
+
+msgid "Configure email options"
+msgstr ""
+
+msgid ""
+"BoxBilling sends emails using <em>sendmail</em> by default or you can "
+"configure your own SMTP server"
+msgstr ""
+
+msgid "Email transport"
+msgstr ""
+
+msgid "SendMail"
+msgstr ""
+
+msgid "SMTP"
+msgstr ""
+
+msgid "SMTP Hostname"
+msgstr ""
+
+msgid "SMTP Port"
+msgstr ""
+
+msgid "SMTP Username"
+msgstr ""
+
+msgid "SMTP Password"
+msgstr ""
+
+msgid "SMTP Security"
+msgstr ""
+
+msgid "Update email settings"
+msgstr ""
+
+msgid "Send test email to staff members"
+msgstr ""
+
+msgid "Where I can use new email template?"
+msgstr ""
+
+msgid "Newly created email templates can be used in custom event hooks."
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Action code"
+msgstr ""
+
+msgid "Filter support tickets"
+msgstr ""
+
+msgid "Client ID"
+msgstr ""
+
+msgid "Order ID"
+msgstr ""
+
+msgid "Ticket subject"
+msgstr ""
+
+msgid "Ticket messages"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Tickets waiting for staff reply"
+msgstr ""
+
+msgid "Tickets waiting for client reply"
+msgstr ""
+
+msgid "Solved tickets"
+msgstr ""
+
+msgid "New email"
+msgstr ""
+
+msgid "Last message"
+msgstr ""
+
+msgid "Open ticket for existing client"
+msgstr ""
+
+msgid "Start typing clients name, email or ID"
+msgstr ""
+
+msgid "Open public ticket for non client"
+msgstr ""
+
+msgid "Receivers name"
+msgstr ""
+
+msgid "John Smith"
+msgstr ""
+
+msgid "to@gmail.com"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Demo"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Forums"
+msgstr ""
+
+msgid "Earn money"
+msgstr ""
+
+msgid "Partners"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Support Tickets"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "INFORMATION"
+msgstr ""
+
+msgid "Website statistic"
+msgstr ""
+
+msgid "Metric"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This month so far"
+msgstr ""
+
+msgid "Income"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Latest orders"
+msgstr ""
+
+msgid "Product sales"
+msgstr ""
+
+msgid "No active orders available"
+msgstr ""
+
+msgid "Define date interval for graphs"
+msgstr ""
+
+msgid "Update graphs"
+msgstr ""
+
+msgid "Recent clients activity"
+msgstr ""
+
+msgid "Recent staff activity"
+msgstr ""
+
+msgid "Public tickets"
+msgstr ""
+
+msgid "Centova Cast"
+msgstr ""
+
+msgid "Centova Cast settings"
+msgstr ""
+
+msgid "Server URL"
+msgstr ""
+
+msgid "Register new server"
+msgstr ""
+
+msgid "Edit server"
+msgstr ""
+
+msgid "CentovaCast URL"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Administrator password"
+msgstr ""
+
+msgid "Register Centova Cast server"
+msgstr ""
+
+msgid "Server added"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Back to extensions"
+msgstr ""
+
+msgid "Create CentovaCast product"
+msgstr ""
+
+msgid "File information"
+msgstr ""
+
+msgid "Filename"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Downloads"
+msgstr ""
+
+msgid "Upload new file for this order"
+msgstr ""
+
+msgid ""
+"Use this function to update existing order file. Client will be able to "
+"download new file from client area"
+msgstr ""
+
+msgid "Upload new file"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Top level domains"
+msgstr ""
+
+msgid "New top level domain"
+msgstr ""
+
+msgid "Registrars"
+msgstr ""
+
+msgid "New domain registrar"
+msgstr ""
+
+msgid "Manage TLDs"
+msgstr ""
+
+msgid ""
+"Setup domain pricing and allowed operations. Assign specific domain "
+"registrars for each Top Level Domain (TLD)"
+msgstr ""
+
+msgid "TLD"
+msgstr ""
+
+msgid "Registration"
+msgstr ""
+
+msgid "Renew"
+msgstr ""
+
+msgid "Operations"
+msgstr ""
+
+msgid "Registrar"
+msgstr ""
+
+msgid "Allow register:"
+msgstr ""
+
+msgid "Allow transfer:"
+msgstr ""
+
+msgid "Active:"
+msgstr ""
+
+msgid "Add new top level domain"
+msgstr ""
+
+msgid "Setup new TLD prices and properties"
+msgstr ""
+
+msgid "Tld"
+msgstr ""
+
+msgid "Registration price"
+msgstr ""
+
+msgid "Renewal price"
+msgstr ""
+
+msgid "Minimum years of registration"
+msgstr ""
+
+msgid "Allow registration"
+msgstr ""
+
+msgid "Allow transfer"
+msgstr ""
+
+msgid "Domain registrars"
+msgstr ""
+
+msgid "Manage domain registrars"
+msgstr ""
+
+msgid ""
+"Setup default nameservers that will be used for new domain registrations if "
+"client have not provided his own nameservers in order form"
+msgstr ""
+
+msgid "Adding new domain registrar"
+msgstr ""
+
+msgid "Follow instrunctions bellow to install new domain registrar."
+msgstr ""
+
+msgid "Check domain registrar you are looking for is available at"
+msgstr ""
+
+msgid "Download domain registrar file and place to"
+msgstr ""
+
+msgid "Reload this page to see newly detected domain registrar"
+msgstr ""
+
+msgid ""
+"Click on install button. Now you will be able to create top level domains "
+"with new domain registrar"
+msgstr ""
+
+msgid "For developers. Read"
+msgstr ""
+
+msgid "to learn how to create your own domain registrar."
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "All payment gateways installed"
+msgstr ""
+
+msgid "Subscription"
+msgstr ""
+
+msgid "Subscription details"
+msgstr ""
+
+msgid "Subscription ID on payment gateway"
+msgstr ""
+
+msgid "Updated at"
+msgstr ""
+
+msgid "Filter orders"
+msgstr ""
+
+msgid "Invoice option"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "Pending setup"
+msgstr ""
+
+msgid "Supended"
+msgstr ""
+
+msgid "Max Addon domains"
+msgstr ""
+
+msgid "Max FTP accounts"
+msgstr ""
+
+msgid "Max SQL Databases"
+msgstr ""
+
+msgid "Max Email Accounts"
+msgstr ""
+
+msgid "Max Subdomains"
+msgstr ""
+
+msgid "Max Parked Domains"
+msgstr ""
+
+msgid "Server manager specific parameters"
+msgstr ""
+
+msgid "Update hosting plan"
+msgstr ""
+
+msgid "Hosting plan additional parameters"
+msgstr ""
+
+msgid ""
+"Depending on server manager used to setup hosting account you may require "
+"provide additional parameters. List of parameters server managers requires "
+"you can find on extensions page."
+msgstr ""
+
+msgid "Add new configuration field"
+msgstr ""
+
+msgid "Something went wrong here"
+msgstr ""
+
+msgid "Back to Dashboard"
+msgstr ""
+
+msgid "Get BoxBilling license"
+msgstr ""
+
+msgid "Newsletters"
+msgstr ""
+
+msgid "Create New"
+msgstr ""
+
+msgid "Articles"
+msgstr ""
+
+msgid "New article"
+msgstr ""
+
+msgid "New category"
+msgstr ""
+
+msgid "Manage categories"
+msgstr ""
+
+msgid "Category created"
+msgstr ""
+
+msgid "File manager"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Update BoxBilling"
+msgstr ""
+
+msgid "Learn more about extensions"
+msgstr ""
+
+msgid "Hooks"
+msgstr ""
+
+msgid "Activate or deactivate extensions"
+msgstr ""
+
+msgid "Extension"
+msgstr ""
+
+msgid "Deactivate"
+msgstr ""
+
+msgid "Module settings"
+msgstr ""
+
+msgid "Hook"
+msgstr ""
+
+msgid "Automatic update"
+msgstr ""
+
+msgid ""
+"Automatic updater is a tool to update BoxBilling to latest version in one "
+"click. Works on these hosting environments where PHP has permissions to "
+"overwrite files uploaded via FTP."
+msgstr ""
+
+msgid "Manual update"
+msgstr ""
+
+msgid ""
+"Manual update is a solution when auto updater can not work on current "
+"installation environment"
+msgstr ""
+
+msgid "Extending BoxBilling"
+msgstr ""
+
+msgid ""
+"BoxBilling gives developers all the capabilities to customize, integrate & "
+"extend the core system into your own website & applications."
+msgstr ""
+
+msgid "Submited"
+msgstr ""
+
+msgid "Manage services"
+msgstr ""
+
+msgid "Search:"
+msgstr ""
+
+msgid "Enter search text.."
+msgstr ""
+
+msgid "Centova Cast product settings"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Max clients"
+msgstr ""
+
+msgid "Max bitrate"
+msgstr ""
+
+msgid "Transfer limit"
+msgstr ""
+
+msgid "Autostart"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "New product"
+msgstr ""
+
+msgid "Update priority"
+msgstr ""
+
+msgid "Icon URL"
+msgstr ""
+
+msgid "Queues"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "The list is empty."
+msgstr ""
+
+msgid "Order management"
+msgstr ""
+
+msgid "Edit order"
+msgstr ""
+
+msgid "Service management"
+msgstr ""
+
+msgid "Addons"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Order group ID"
+msgstr ""
+
+msgid "Order promo code"
+msgstr ""
+
+msgid "Reason of suspendation"
+msgstr ""
+
+msgid "Suspendation reason"
+msgstr ""
+
+msgid "Reason of cancelation"
+msgstr ""
+
+msgid "Cancelation reason"
+msgstr ""
+
+msgid "Changes status without performing action"
+msgstr ""
+
+msgid "Order invoices"
+msgstr ""
+
+msgid "Issued at"
+msgstr ""
+
+msgid "Order status change history"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Support tickets regarding this order"
+msgstr ""
+
+msgid "Server Name"
+msgstr ""
+
+msgid "Account IP"
+msgstr ""
+
+msgid "Change hosting plan"
+msgstr ""
+
+msgid "Hosting plan changed"
+msgstr ""
+
+msgid "New hosting plan"
+msgstr ""
+
+msgid "Account password changed"
+msgstr ""
+
+msgid "Change IP"
+msgstr ""
+
+msgid "Account IP changed"
+msgstr ""
+
+msgid "Account username changed"
+msgstr ""
+
+msgid "Account domain changed"
+msgstr ""
+
+msgid "Client area languages"
+msgstr ""
+
+msgid "New language"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "BoxBilling in your language"
+msgstr ""
+
+msgid ""
+"Although BoxBilling displays in U.S. English by default, the software has "
+"the built-in capability to be used in any language. Follow instructions "
+"bellow to install new language."
+msgstr ""
+
+msgid "Check if your language translation file is available at"
+msgstr ""
+
+msgid "BoxBilling extensions site"
+msgstr ""
+
+msgid "Download language files and place them to"
+msgstr ""
+
+msgid ""
+"Language will be automatically available and can be changed in client area"
+msgstr ""
+
+msgid "Installing BoxBilling in Your Language"
+msgstr ""
+
+msgid ""
+"to learn how to install files that will transform BoxBilling so it displays "
+"in your language."
+msgstr ""
+
+msgid "Translations can be made with"
+msgstr ""
+
+msgid "software"
+msgstr ""
+
+msgid "Changing default language"
+msgstr ""
+
+msgid "Default language can be set in"
+msgstr ""
+
+msgid "Removing language"
+msgstr ""
+
+msgid ""
+"Removing languages from BoxBilling is really simple. Just delete language "
+"folder you wish from"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "BoxBilling version settings"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Release date"
+msgstr ""
+
+msgid "Download latest"
+msgstr ""
+
+msgid "Download latest update"
+msgstr ""
+
+msgid "Staff members logins history"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Filter clients"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Suspended"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "New client"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "New group"
+msgstr ""
+
+msgid "Postcode"
+msgstr ""
+
+msgid "Your Balance"
+msgstr ""
+
+msgid "Ticket"
+msgstr ""
+
+msgid "Task"
+msgstr ""
+
+msgid "Client tickets"
+msgstr ""
+
+msgid "Total responses"
+msgstr ""
+
+msgid "Add note"
+msgstr ""
+
+msgid "Task status"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "management"
+msgstr ""
+
+msgid "Variables"
+msgstr ""
+
+msgid "Template Settings"
+msgstr ""
+
+msgid "Reset template"
+msgstr ""
+
+msgid "Examples"
+msgstr ""
+
+msgid "Manage email template"
+msgstr ""
+
+msgid ""
+"Most email templates receives parameters from BoxBilling. You can browse "
+"them on \"Variables\" tab. Copy variable name to email template and hit "
+"preview to see parsed content. Please note that values will be different "
+"when actual email is sent."
+msgstr ""
+
+msgid "Template updated"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Template settings"
+msgstr ""
+
+msgid "Enable or disable this email template."
+msgstr ""
+
+msgid "List of variables used in this email"
+msgstr ""
+
+msgid ""
+"These values will change when real email is sent. You can pass these "
+"variables to admin or guest API to get additional information from database."
+msgstr ""
+
+msgid "Variable"
+msgstr ""
+
+msgid "Example value"
+msgstr ""
+
+msgid "This template does not receive any parameters"
+msgstr ""
+
+msgid "Reset email template to default"
+msgstr ""
+
+msgid "Reset to default"
+msgstr ""
+
+msgid "Email templates examples"
+msgstr ""
+
+msgid ""
+"Email template playground. Use this tool to try rendering email templates."
+msgstr ""
+
+msgid "Affiliate settings"
+msgstr ""
+
+msgid "Affiliate module settings"
+msgstr ""
+
+msgid "Offer your clients become affiliates of your services."
+msgstr ""
+
+msgid "Commission from order"
+msgstr ""
+
+msgid "Days from order activation to admit commission"
+msgstr ""
+
+msgid "Bonus amount for becoming affiliate in"
+msgstr ""
+
+msgid "Minimum withdraw amount."
+msgstr ""
+
+msgid ""
+"Redirect Url. Where is your client redirected after visiting refferal link"
+msgstr ""
+
+msgid "Email content"
+msgstr ""
+
+msgid "Email details"
+msgstr ""
+
+msgid "Sent emails"
+msgstr ""
+
+msgid "Subscriptions"
+msgstr ""
+
+msgid "New subscription"
+msgstr ""
+
+msgid "Create main administrator account"
+msgstr ""
+
+msgid "Enter your email address"
+msgstr ""
+
+msgid "Enter your password"
+msgstr ""
+
+msgid "Create administrator account"
+msgstr ""
+
+msgid "Remember me"
+msgstr ""
+
+msgid "Log me in"
+msgstr ""
+
+msgid "Create new order"
+msgstr ""
+
+msgid "for"
+msgstr ""
+
+msgid "Activate order"
+msgstr ""
+
+msgid "Place new order"
+msgstr ""
+
+msgid "BoxBilling members area"
+msgstr ""
+
+msgid "Registering as"
+msgstr ""
+
+msgid "Individual"
+msgstr ""
+
+msgid "Company registration number"
+msgstr ""
+
+msgid "Company VAT number"
+msgstr ""
+
+msgid "Tax rules"
+msgstr ""
+
+msgid "New tax rule"
+msgstr ""
+
+msgid "Tax settings"
+msgstr ""
+
+msgid "EU VAT"
+msgstr ""
+
+msgid "State/Region"
+msgstr ""
+
+msgid "Tax rate"
+msgstr ""
+
+msgid "Applies to any country"
+msgstr ""
+
+msgid "Applies to any state"
+msgstr ""
+
+msgid "Enable tax support"
+msgstr ""
+
+msgid "Automatic VAT Tax Rules Setup"
+msgstr ""
+
+msgid ""
+"If you would like BoxBilling to automatically setup the EU VAT tax rules for "
+"you for all EU Member States then simply enter your VAT Label & local VAT "
+"rate below and click the submit button. This action will delete any existing "
+"tax rules and configure the VAT rates for all EU countries."
+msgstr ""
+
+msgid "VAT Label"
+msgstr ""
+
+msgid "VAT rate"
+msgstr ""
+
+msgid "21"
+msgstr ""
+
+msgid "Create EU VAT Rules"
+msgstr ""
+
+msgid "Tax title"
+msgstr ""
+
+msgid "sales Tax"
+msgstr ""
+
+msgid "18"
+msgstr ""
+
+msgid "Leave empty to apply to all states"
+msgstr ""
+
+msgid "Profile updated"
+msgstr ""
+
+msgid "Listed in public"
+msgstr ""
+
+msgid "Partner status"
+msgstr ""
+
+msgid "Partner product"
+msgstr ""
+
+msgid "Override price"
+msgstr ""
+
+msgid "Logo URL"
+msgstr ""
+
+msgid "Website URL"
+msgstr ""
+
+msgid "Payment gateway configuration"
+msgstr ""
+
+msgid "Payment gateway title"
+msgstr ""
+
+msgid ""
+"Select which currencies can accept this payment gateway (Select none to "
+"allow all currencies)"
+msgstr ""
+
+msgid "Allow one time payments"
+msgstr ""
+
+msgid "Allow subscription payments"
+msgstr ""
+
+msgid "Enable test mode"
+msgstr ""
+
+msgid "IPN Callback URL"
+msgstr ""
+
+msgid "Go back"
+msgstr ""
+
+msgid "Send Email Message"
+msgstr ""
+
+msgid "Newsletter updated"
+msgstr ""
+
+msgid "From name"
+msgstr ""
+
+msgid "From email"
+msgstr ""
+
+msgid "Send message"
+msgstr ""
+
+msgid "Back to newsletters"
+msgstr ""
+
+msgid "Recipients filter. Select none to send message to all clients"
+msgstr ""
+
+msgid "Client status and group"
+msgstr ""
+
+msgid "Has order"
+msgstr ""
+
+msgid "Message content"
+msgstr ""
+
+msgid "Update and preview"
+msgstr ""
+
+msgid "Send test message"
+msgstr ""
+
+msgid "Send message to clients"
+msgstr ""
+
+msgid "Topics"
+msgstr ""
+
+msgid "New forum"
+msgstr ""
+
+msgid "Sticky"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Sorting"
+msgstr ""
+
+msgid "Last ping"
+msgstr ""
+
+msgid "Valid IPs (one per line)"
+msgstr ""
+
+msgid "Validate host"
+msgstr ""
+
+msgid "Valid hosts (one per line)"
+msgstr ""
+
+msgid "Validate path"
+msgstr ""
+
+msgid "Valid paths (one per line)"
+msgstr ""
+
+msgid "Validate version"
+msgstr ""
+
+msgid "Valid versions (one per line)"
+msgstr ""
+
+msgid "Existing member"
+msgstr ""
+
+msgid "Payment gateways"
+msgstr ""
+
+msgid "New payment gateway"
+msgstr ""
+
+msgid "Allow subscriptions"
+msgstr ""
+
+msgid "Adding new payment gateway"
+msgstr ""
+
+msgid ""
+"Although BoxBilling ships with most popular payment gateways, you can "
+"install other gateways."
+msgstr ""
+
+msgid "Follow these instructions to install new payment gateway."
+msgstr ""
+
+msgid "Check for payment gateway at"
+msgstr ""
+
+msgid "for more payment gateways"
+msgstr ""
+
+msgid "Download payment gateway extension file and place it to"
+msgstr ""
+
+msgid "After file is uploaded in place, reload this page."
+msgstr ""
+
+msgid "Select uploaded file name and click on install."
+msgstr ""
+
+msgid ""
+"Payment gateway will be installed in BoxBilling and can be configured in "
+"\"Payment gateways\" tab."
+msgstr ""
+
+msgid ""
+"to learn how to create your own payment gateway and share it with community"
+msgstr ""
+
+msgid "Main website"
+msgstr ""
+
+msgid "Loading ..."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Pending approval amount"
+msgstr ""
+
+msgid "Total approved amount"
+msgstr ""
+
+msgid "Total paid amount"
+msgstr ""
+
+msgid "Balance amount"
+msgstr ""
+
+msgid "Total clicks"
+msgstr ""
+
+msgid "Unique clicks"
+msgstr ""
+
+msgid "Commisions"
+msgstr ""
+
+msgid "Invoices waiting for your payment"
+msgstr ""
+
+msgid "Paid invoices"
+msgstr ""
+
+msgid "Canned responses"
+msgstr ""
+
+msgid "New response"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "oAuth for BoxBilling"
+msgstr ""
+
+msgid "Google"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Github"
+msgstr ""
+
+msgid "Use third party logins"
+msgstr ""
+
+msgid "Google.com authorization settings"
+msgstr ""
+
+msgid "Enable Google login"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Instructions to create Google.com API access"
+msgstr ""
+
+msgid "Github.com authorization settings"
+msgstr ""
+
+msgid "Enable Github login"
+msgstr ""
+
+msgid "Client Secret"
+msgstr ""
+
+msgid "Instructions to register new oAuth application on Github"
+msgstr ""
+
+msgid "Facebook.com authorization settings"
+msgstr ""
+
+msgid "Enable Facebook login"
+msgstr ""
+
+msgid "App ID"
+msgstr ""
+
+msgid "Secret"
+msgstr ""
+
+msgid "Instructions to create Facebook application"
+msgstr ""
+
+msgid "BoxBilling live demo"
+msgstr ""
+
+msgid "Payments"
+msgstr ""
+
+msgid "Logins"
+msgstr ""
+
+msgid "Client profile details"
+msgstr ""
+
+msgid "Client Profile updated"
+msgstr ""
+
+msgid "Other/Unknown"
+msgstr ""
+
+msgid "Company details"
+msgstr ""
+
+msgid "Address and contact details"
+msgstr ""
+
+msgid "Additional settings"
+msgstr ""
+
+msgid "Alternative ID"
+msgstr ""
+
+msgid "Used to identify client on foreign system. Usually used by importers"
+msgstr ""
+
+msgid "Exempt from tax"
+msgstr ""
+
+msgid "Signed up time"
+msgstr ""
+
+msgid "Password changed"
+msgstr ""
+
+msgid "Custom fields"
+msgstr ""
+
+msgid "Use these fields to define custom client details"
+msgstr ""
+
+msgid "Client Profile custom fields updated"
+msgstr ""
+
+msgid "Custom field"
+msgstr ""
+
+msgid "Client payments history"
+msgstr ""
+
+msgid "Add funds for client"
+msgstr ""
+
+msgid "Funds added"
+msgstr ""
+
+msgid "Client orders"
+msgstr ""
+
+msgid "Client invoices"
+msgstr ""
+
+msgid "Client support tickets"
+msgstr ""
+
+msgid "Logins history"
+msgstr ""
+
+msgid "Emails sent to client"
+msgstr ""
+
+msgid "Download BoxBilling"
+msgstr ""
+
+msgid "Edit product addon"
+msgstr ""
+
+msgid "Activation"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "System settings"
+msgstr ""
+
+msgid "FTP layer"
+msgstr ""
+
+msgid "Scheduled tasks"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Company number, chamber of commerce number"
+msgstr ""
+
+msgid "VAT number"
+msgstr ""
+
+msgid "Bank Account number"
+msgstr ""
+
+msgid "Signature"
+msgstr ""
+
+msgid "Update settings"
+msgstr ""
+
+msgid "Company terms of service, legal regulation"
+msgstr ""
+
+msgid "Company privacy policy"
+msgstr ""
+
+msgid "Orders settings"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "Invoice settings"
+msgstr ""
+
+msgid "Number of days to generate new invoice before order expiration"
+msgstr ""
+
+msgid "Invoice due days"
+msgstr ""
+
+msgid "Auto invoice approval"
+msgstr ""
+
+msgid "Proforma Invoicing / Sequential Invoice Numbering"
+msgstr ""
+
+msgid "Proforma invoice prefix/series"
+msgstr ""
+
+msgid "Paid invoice prefix/series"
+msgstr ""
+
+msgid "Next paid invoice number"
+msgstr ""
+
+msgid "Refunds settings"
+msgstr ""
+
+msgid "Refunds logic"
+msgstr ""
+
+msgid "Add funds settings"
+msgstr ""
+
+msgid "Minimum amount for add funds invoice"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Maximum amount for add funds invoice"
+msgstr ""
+
+msgid "FTP layer for BoxBilling"
+msgstr ""
+
+msgid "FTP is used to manage BoxBilling modules and updates."
+msgstr ""
+
+msgid "FTP settings updated"
+msgstr ""
+
+msgid ""
+"<strong>FTP Hostname</strong> - can be a numerical URL 127.0.0.1 is the "
+"default address for a locally hosted server, it might be this, it might be "
+"the full URL as my example above with the File Transfer Protocol (FTP) "
+"prefix, it might be the http:// protocol it might be SFTP (secure FTP) even "
+"secure http (https). Your host will be able to advise you on the correct "
+"format."
+msgstr ""
+
+msgid ""
+"<strong>FTP port</strong> - is nearly always 21 unless the host has changed "
+"this they will have notified you of this. Secure FTP generally uses port 22."
+msgstr ""
+
+msgid ""
+"<strong>FTP user</strong> - In most cases, this is the specific user name "
+"your host has set up for you to access your Web site via FTP- It is the name "
+"you use in your FTP client. This could be an alphanumeric, it could be your "
+"name, even your e-mail address, If you don't know this speak to your host. "
+"You may have the facility on your Web account to set up additional FTP users "
+"if that is the case (and it's more secure) you are recommended to do this"
+msgstr ""
+
+msgid ""
+"<strong>FTP password</strong> - this is the password you enter in your FTP "
+"client."
+msgstr ""
+
+msgid ""
+"<strong>FTP root</strong> - This is generally the directory in which "
+"BoxBilling is installed. This setting is very important to be setup "
+"correctly as it very specifically depends on the Host server settings. In "
+"can be just / BUT it might be htdocs/boxbilling, public_html/, /public_html/"
+"boxbilling or other. It is a variable that BoxBilling has absolutely no "
+"control over. You will need to clarify this with your host."
+msgstr ""
+
+msgid "Setup scheduled tasks to be executed once a day"
+msgstr ""
+
+msgid ""
+"Scheduled tasks must be enabled immediately after installation. Cron is "
+"responsible for sending your clients reminder about payments, domain renewal "
+"notices and many more."
+msgstr ""
+
+msgid "Timezone"
+msgstr ""
+
+msgid "Time on server"
+msgstr ""
+
+msgid "Last time scheduled tasks were executed"
+msgstr ""
+
+msgid "Scheduled tasks were never executed"
+msgstr ""
+
+msgid "Unix crontab setup:"
+msgstr ""
+
+msgid "Execute scheduled tasks from browser"
+msgstr ""
+
+msgid "Execute now"
+msgstr ""
+
+msgid ""
+"After purchase you have received an e-mail with license key. Update license "
+"key to unlock all features of BoxBilling"
+msgstr ""
+
+msgid ""
+"To change license key, change <em>BB_LICENSE</em> value in <em>bb-config."
+"php</em> file"
+msgstr ""
+
+msgid "Licensed to"
+msgstr ""
+
+msgid "New Addon"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "After order is placed"
+msgstr ""
+
+msgid "After payment is received"
+msgstr ""
+
+msgid "Manual activation"
+msgstr ""
+
+msgid "Sell BoxBilling licenses"
+msgstr ""
+
+msgid "1. Configure API"
+msgstr ""
+
+msgid "Test connection"
+msgstr ""
+
+msgid "Update API key"
+msgstr ""
+
+msgid "2. Become partner"
+msgstr ""
+
+msgid "3. Create license product"
+msgstr ""
+
+msgid "Refer and earn recurring commission"
+msgstr ""
+
+msgid "Partners profile"
+msgstr ""
+
+msgid "Issue License"
+msgstr ""
+
+msgid "Manage licenses"
+msgstr ""
+
+msgid "Licenses you have issued"
+msgstr ""
+
+msgid "Reissue"
+msgstr ""
+
+msgid "Generate new API key"
+msgstr ""
+
+msgid "Centova Cast order details"
+msgstr ""
+
+msgid "Changing settings does not send actions to CentovaCast server."
+msgstr ""
+
+msgid "Reconfigure"
+msgstr ""
+
+msgid "Changing CentovaCast server settings."
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Source password"
+msgstr ""
+
+msgid "Max BitRate"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Auto rebuild list"
+msgstr ""
+
+msgid "Account details"
+msgstr ""
+
+msgid "Parameter"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Mass Mail Messages"
+msgstr ""
+
+msgid "Create new mass mail message"
+msgstr ""
+
+msgid "Mass Mail Settings"
+msgstr ""
+
+msgid "Client ID to send test email while creating message"
+msgstr ""
+
+msgid "Hi,"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Visit site"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Inquiries"
+msgstr ""
+
+msgid "Anouncements"
+msgstr ""
+
+msgid "Become a member and discuss in forums"
+msgstr ""
+
+msgid "Braunstein extension settings"
+msgstr ""
+
+msgid "Required fields for client"
+msgstr ""
+
+msgid ""
+"Select which fields are required to be filled up by client on signup form"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Address details"
+msgstr ""
+
+msgid "Address line 1"
+msgstr ""
+
+msgid "Address line 2"
+msgstr ""
+
+msgid "Postcode/Zip"
+msgstr ""
+
+msgid "BoxBilling full feature list"
+msgstr ""
+
+msgid "Select Slots"
+msgstr ""
+
+msgid "Earnings"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid ""
+"External application can control every aspect of BoxBilling using this API "
+"key."
+msgstr ""
+
+msgid "Generate new key"
+msgstr ""
+
+msgid "Change your avatar at"
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Server manager"
+msgstr ""
+
+msgid "Access Hash (Instead of password for cPanel servers)"
+msgstr ""
+
+msgid "Connection port"
+msgstr ""
+
+msgid "Use Secure connection"
+msgstr ""
+
+msgid "Update and test connection"
+msgstr ""
+
+msgid "Update server"
+msgstr ""
+
+msgid "Hosting plans and servers"
+msgstr ""
+
+msgid "New server"
+msgstr ""
+
+msgid "New server manager"
+msgstr ""
+
+msgid "Servers"
+msgstr ""
+
+msgid "Hosting plans"
+msgstr ""
+
+msgid "Addon domains"
+msgstr ""
+
+msgid "Unique name to identify this server"
+msgstr ""
+
+msgid "server1.yourserverdomain.com"
+msgstr ""
+
+msgid ""
+"Primary IP address of the server used to connect to it like: 123.123.123.123"
+msgstr ""
+
+msgid "Assigned IP Addresses"
+msgstr ""
+
+msgid "List the IP Addresses assigned to the server (One per line)"
+msgstr ""
+
+msgid "ns1.yourdomain.com"
+msgstr ""
+
+msgid "ns2.yourdomain.com"
+msgstr ""
+
+msgid "ns3.yourdomain.com"
+msgstr ""
+
+msgid "ns4.yourdomain.com"
+msgstr ""
+
+msgid "Login username to your server: root/reseller"
+msgstr ""
+
+msgid "Login password to your server"
+msgstr ""
+
+msgid "Access Hash (Insted of password for cPanel servers)"
+msgstr ""
+
+msgid "Add server"
+msgstr ""
+
+msgid "Adding new hosting plan"
+msgstr ""
+
+msgid ""
+"Depending on server manager used to setup hosting account you may require "
+"provide additional parameters in next step. In this step provide basic "
+"hosting plan information."
+msgstr ""
+
+msgid "Unique name to identify this hosting plan"
+msgstr ""
+
+msgid "Disk quota (MB)"
+msgstr ""
+
+msgid "Bandwidth (MB)"
+msgstr ""
+
+msgid "Create hosting plan"
+msgstr ""
+
+msgid "Adding new server manager"
+msgstr ""
+
+msgid "Follow these instructions to install new hosting server manager."
+msgstr ""
+
+msgid "Check for server manager extensions at"
+msgstr ""
+
+msgid "Download server manager extension file and place it to"
+msgstr ""
+
+msgid "Server manager gateway will be automatically detected."
+msgstr ""
+
+msgid "You can now create/edit servers with new server manager."
+msgstr ""
+
+msgid ""
+"to learn how to create your own server manager and share it with community"
+msgstr ""
+
+msgid "Client area themes"
+msgstr ""
+
+msgid "Admin area themes"
+msgstr ""
+
+msgid "New theme"
+msgstr ""
+
+msgid "Adding new client area theme"
+msgstr ""
+
+msgid "Follow these instructions to install new client area theme."
+msgstr ""
+
+msgid "Check for client area themes at"
+msgstr ""
+
+msgid "Upload new theme files to"
+msgstr ""
+
+msgid "and reload this page"
+msgstr ""
+
+msgid ""
+"Client area theme will appear in &quot;Client area themes&quot; tab. And you "
+"can select it as default"
+msgstr ""
+
+msgid "For theme designers. Read"
+msgstr ""
+
+msgid "to learn how to create your own theme"
+msgstr ""
+
+msgid "Adding new admin area theme"
+msgstr ""
+
+msgid ""
+"Admin area follows same logic as client area themes with one additional "
+"rule: admin theme directory must be prefixed with &quot;admin_&quot;."
+msgstr ""
+
+msgid "Support ticket"
+msgstr ""
+
+msgid "Staff member"
+msgstr ""
+
+msgid "Announcement"
+msgstr ""
+
+msgid "Knowledge base article"
+msgstr ""
+
+msgid "Forum topic"
+msgstr ""
+
+msgid "Filter invoices"
+msgstr ""
+
+msgid "Nr"
+msgstr ""
+
+msgid "All statuses"
+msgstr ""
+
+msgid "Refunded"
+msgstr ""
+
+msgid "Issue date"
+msgstr ""
+
+msgid "Unpaid invoices"
+msgstr ""
+
+msgid "Refunded invoices"
+msgstr ""
+
+msgid "New Invoice"
+msgstr ""
+
+msgid "Prepare"
+msgstr ""
+
+msgid "New note"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
+msgid "Add note or todo task"
+msgstr ""
+
+msgid "Transaction"
+msgstr ""
+
+msgid "IPN"
+msgstr ""
+
+msgid "Transaction details"
+msgstr ""
+
+msgid ""
+"If you are sure that this transaction is valid you can update transaction "
+"details in &quot;Manage&quot; tab and try processing transaction again"
+msgstr ""
+
+msgid "Transaction ID on payment gateway"
+msgstr ""
+
+msgid "Transaction status on payment gateway"
+msgstr ""
+
+msgid "Process"
+msgstr ""
+
+msgid "Invoice ID"
+msgstr ""
+
+msgid "Transaction processing information"
+msgstr ""
+
+msgid "Validate IPN"
+msgstr ""
+
+msgid "Transaction information on payment gateway"
+msgstr ""
+
+msgid "Transaction type"
+msgstr ""
+
+msgid "Transaction status on Payment Gateway"
+msgstr ""
+
+msgid "Transaction ID on Payment Gateway"
+msgstr ""
+
+msgid "Note about this transaction"
+msgstr ""
+
+msgid "GET"
+msgstr ""
+
+msgid "No GET parameters received"
+msgstr ""
+
+msgid "POST"
+msgstr ""
+
+msgid "No POST parameters received"
+msgstr ""
+
+msgid "SERVER"
+msgstr ""
+
+msgid "No SERVER parameters logged"
+msgstr ""
+
+msgid "BoxBilling forum"
+msgstr ""
+
+msgid "My favorite topics"
+msgstr ""
+
+msgid "Payment type"
+msgstr ""
+
+msgid "Setup price"
+msgstr ""
+
+msgid "One time"
+msgstr ""
+
+msgid "Price for period"
+msgstr ""
+
+msgid "First payment sum"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Upgrades"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Custom order form"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Slug"
+msgstr ""
+
+msgid "Payment options"
+msgstr ""
+
+msgid "Product / service description"
+msgstr ""
+
+msgid "Choose which addons you would like to offer with"
+msgstr ""
+
+msgid "Choose which products can client upgrade to"
+msgstr ""
+
+msgid "Product Upgrades"
+msgstr ""
+
+msgid "No additional configuration for this product is required"
+msgstr ""
+
+msgid "Product links"
+msgstr ""
+
+msgid "Product ID"
+msgstr ""
+
+msgid "Order page with ID"
+msgstr ""
+
+msgid "Order page with slug"
+msgstr ""
+
+msgid "Select icon and click OK"
+msgstr ""
+
+msgid "Lock topic"
+msgstr ""
+
+msgid "Unlock topic"
+msgstr ""
+
+msgid "Hosting settings"
+msgstr ""
+
+msgid "Reseller hosting"
+msgstr ""
+
+msgid "Free domain registration"
+msgstr ""
+
+msgid "Free domain transfer"
+msgstr ""
+
+msgid "Pending approval"
+msgstr ""
+
+msgid "Clicks"
+msgstr ""
+
+msgid "Joined at"
+msgstr ""
+
+msgid "Parameter key is missing"
+msgstr ""
+
+msgid "_tpl parameter not passed"
+msgstr ""
+
+msgid "ID is required"
+msgstr ""
+
+msgid "Event not found"
+msgstr ""
+
+msgid "Order id is required"
+msgstr ""
+
+msgid "Centova Cast order not found"
+msgstr ""
+
+msgid "Order :id is not activated"
+msgstr ""
+
+msgid "CentovaCast product is not configured properly. Field :field is missing"
+msgstr ""
+
+msgid "Could not suspend order. Service was not created"
+msgstr ""
+
+msgid "Could not unsuspend order. Service was not created"
+msgstr ""
+
+msgid "Message from name can not be empty"
+msgstr ""
+
+msgid "Message subject not passed"
+msgstr ""
+
+msgid "Add some content before sending message"
+msgstr ""
+
+msgid "Client ID needs to be configured in mass mailer settings."
+msgstr ""
+
+msgid "Message id not passed"
+msgstr ""
+
+msgid "Message not found"
+msgstr ""
+
+msgid "Queue message id is missing"
+msgstr ""
+
+msgid "Queue message not found"
+msgstr ""
+
+msgid "Queue name not provided"
+msgstr ""
+
+msgid "Module name not provided"
+msgstr ""
+
+msgid "Message handler function :method does not exists"
+msgstr ""
+
+msgid "ID or slug is missing"
+msgstr ""
+
+msgid "News item not found"
+msgstr ""
+
+msgid "Post id not passed"
+msgstr ""
+
+msgid "Post not found"
+msgstr ""
+
+msgid "Post title not passed"
+msgstr ""
+
+msgid "Form title was not provided"
+msgstr ""
+
+msgid "Form id was not passed"
+msgstr ""
+
+msgid "Form is not valid"
+msgstr ""
+
+msgid "Form field type was not passed"
+msgstr ""
+
+msgid "Theme code is missing"
+msgstr ""
+
+msgid "You have latest version of BoxBilling. You do not need to update."
+msgstr ""
+
+msgid "Extension id was not passed"
+msgstr ""
+
+msgid "Extension type was not passed"
+msgstr ""
+
+msgid "Parameter ext was not passed"
+msgstr ""
+
+msgid "Extension not found"
+msgstr ""
+
+msgid "Can not change email. It is already registered."
+msgstr ""
+
+msgid "Password required"
+msgstr ""
+
+msgid "Password confiration required"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Client ID or email is required"
+msgstr ""
+
+msgid "Client not found"
+msgstr ""
+
+msgid "ID required"
+msgstr ""
+
+msgid "Email required"
+msgstr ""
+
+msgid "First name is required"
+msgstr ""
+
+msgid "Email is already registered."
+msgstr ""
+
+msgid "Client id is missing"
+msgstr ""
+
+msgid "Id required"
+msgstr ""
+
+msgid "Client ID is required"
+msgstr ""
+
+msgid "Password confirmation required"
+msgstr ""
+
+msgid "Passwords do not match"
+msgstr ""
+
+msgid "Balance line not found"
+msgstr ""
+
+msgid "Amount is required"
+msgstr ""
+
+msgid "Description is required"
+msgstr ""
+
+msgid "Id not passed"
+msgstr ""
+
+msgid "Group title is missing"
+msgstr ""
+
+msgid "Group id is missing"
+msgstr ""
+
+msgid "Group not found"
+msgstr ""
+
+msgid "First name required"
+msgstr ""
+
+msgid ""
+"Email is already registered. You may want to login instead of registering."
+msgstr ""
+
+msgid "Please check your login details"
+msgstr ""
+
+msgid "Email not found in our database"
+msgstr ""
+
+msgid "Hash required"
+msgstr ""
+
+msgid "The link have expired or you have already confirmed password reset."
+msgstr ""
+
+msgid "Country code is required"
+msgstr ""
+
+msgid "Title is required"
+msgstr ""
+
+msgid "Type is required"
+msgstr ""
+
+msgid "Product Category Id is required"
+msgstr ""
+
+msgid "You have already created domain product."
+msgstr ""
+
+msgid "Pricing type is required"
+msgstr ""
+
+msgid "priority params is missing"
+msgstr ""
+
+msgid "Addon id is required"
+msgstr ""
+
+msgid "Addon not found"
+msgstr ""
+
+msgid "Category id is missing"
+msgstr ""
+
+msgid "Category not found"
+msgstr ""
+
+msgid "Category title is missing"
+msgstr ""
+
+msgid "Promo code is missing"
+msgstr ""
+
+msgid "Promo type is missing"
+msgstr ""
+
+msgid "Promo value is missing"
+msgstr ""
+
+msgid "Promo id is missing"
+msgstr ""
+
+msgid "Promo not found"
+msgstr ""
+
+msgid "Product id not passed"
+msgstr ""
+
+msgid "Product ID or slug is missing"
+msgstr ""
+
+msgid "Email ID is required"
+msgstr ""
+
+msgid "Email not found"
+msgstr ""
+
+msgid "Receiver Email is required"
+msgstr ""
+
+msgid "Receiver Name is required"
+msgstr ""
+
+msgid "Sender Name is required"
+msgstr ""
+
+msgid "Sender email is required"
+msgstr ""
+
+msgid "Email subject is required"
+msgstr ""
+
+msgid "Email content is required"
+msgstr ""
+
+msgid "Email template ID is required"
+msgstr ""
+
+msgid "Email template not found"
+msgstr ""
+
+msgid "Email template code is required"
+msgstr ""
+
+msgid "Email template subject is required"
+msgstr ""
+
+msgid "Email template content is required"
+msgstr ""
+
+msgid "Template code not passed"
+msgstr ""
+
+msgid "Receiver is not defined. Define to or to_client or to_staff parameter"
+msgstr ""
+
+msgid "Email template code was not passed"
+msgstr ""
+
+msgid "Email template :code was not found"
+msgstr ""
+
+msgid "Akismet detected this message is spam"
+msgstr ""
+
+msgid ""
+"To use reCAPTCHA you must get an API key from <a href='https://www.google."
+"com/recaptcha/admin/create'>https://www.google.com/recaptcha/admin/create</a>"
+msgstr ""
+
+msgid "Captcha verification failed."
+msgstr ""
+
+msgid "Your Username is blacklisted in global database"
+msgstr ""
+
+msgid "Your Email is blacklisted in global database"
+msgstr ""
+
+msgid "Your IP is blacklisted in global database"
+msgstr ""
+
+msgid "path parameter is missing"
+msgstr ""
+
+msgid "Data parameter is missing"
+msgstr ""
+
+msgid "Path parameter is missing"
+msgstr ""
+
+msgid "Type parameter is missing"
+msgstr ""
+
+msgid "Unknow item type"
+msgstr ""
+
+msgid "To parameter is missing"
+msgstr ""
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "Ticket id required"
+msgstr ""
+
+msgid "Ticket not found"
+msgstr ""
+
+msgid "Ticket content required"
+msgstr ""
+
+msgid "Ticket subject required"
+msgstr ""
+
+msgid "Ticket support_helpdesk_id required"
+msgstr ""
+
+msgid "Helpdesk invalid"
+msgstr ""
+
+msgid "We have already received this request."
+msgstr ""
+
+msgid "Ticket ID required"
+msgstr ""
+
+msgid "Ticket can not be reopened."
+msgstr ""
+
+msgid "Ticket id is missing"
+msgstr ""
+
+msgid "Ticket message id is missing"
+msgstr ""
+
+msgid "Ticket message content is missing"
+msgstr ""
+
+msgid "Ticket message not found"
+msgstr ""
+
+msgid "Client name parameter is missing"
+msgstr ""
+
+msgid "Client email parameter is missing"
+msgstr ""
+
+msgid "Subject parameter is missing"
+msgstr ""
+
+msgid "Ticket message is missing"
+msgstr ""
+
+msgid "Help desk id is missing"
+msgstr ""
+
+msgid "Help desk not found"
+msgstr ""
+
+msgid "Help desk title is missing"
+msgstr ""
+
+msgid "Canned reply id is missing"
+msgstr ""
+
+msgid "Canned reply not found"
+msgstr ""
+
+msgid "Canned reply title is missing"
+msgstr ""
+
+msgid "Canned reply category id is missing"
+msgstr ""
+
+msgid "Canned category id is missing"
+msgstr ""
+
+msgid "Canned category not found"
+msgstr ""
+
+msgid "Canned category title is missing"
+msgstr ""
+
+msgid "ticket_id is missing"
+msgstr ""
+
+msgid "note is missing"
+msgstr ""
+
+msgid "Note id is missing"
+msgstr ""
+
+msgid "Note not found"
+msgstr ""
+
+msgid "Please enter your name"
+msgstr ""
+
+msgid "Please enter your email"
+msgstr ""
+
+msgid "Please enter your subject"
+msgstr ""
+
+msgid "Please enter your message"
+msgstr ""
+
+msgid "Public ticket hash required"
+msgstr ""
+
+msgid "Public ticket not found"
+msgstr ""
+
+msgid "message required"
+msgstr ""
+
+msgid "Message can not be blank"
+msgstr ""
+
+msgid "ID is missing"
+msgstr ""
+
+msgid "Staff member not found"
+msgstr ""
+
+msgid "Email param is missing"
+msgstr ""
+
+msgid "Password param is missing"
+msgstr ""
+
+msgid "Name param is missing"
+msgstr ""
+
+msgid "Staff group is missing"
+msgstr ""
+
+msgid "Administrator account already exists"
+msgstr ""
+
+msgid "Administrator email is missing."
+msgstr ""
+
+msgid "Administrator password is missing."
+msgstr ""
+
+msgid "Check your login details"
+msgstr ""
+
+msgid "BoxBilling license order not found"
+msgstr ""
+
+msgid "Order is not activated"
+msgstr ""
+
+msgid "Forum not found"
+msgstr ""
+
+msgid "Forum Topic not found"
+msgstr ""
+
+msgid "Forum ID not passed"
+msgstr ""
+
+msgid "Forum topic not passed"
+msgstr ""
+
+msgid "Forum message not passed"
+msgstr ""
+
+msgid "Your message is too short"
+msgstr ""
+
+msgid "Forum is locked. No new topics can be started"
+msgstr ""
+
+msgid "Forum Topic ID not passed"
+msgstr ""
+
+msgid "Topic message not passed"
+msgstr ""
+
+msgid "Forum topic is locked. No new message can be posted"
+msgstr ""
+
+msgid "Forum id missing"
+msgstr ""
+
+msgid "Forum title is missing"
+msgstr ""
+
+msgid "Topic id is missing"
+msgstr ""
+
+msgid "Forum topic title not passed"
+msgstr ""
+
+msgid "Forum topic message not passed"
+msgstr ""
+
+msgid "Forum topic id missing"
+msgstr ""
+
+msgid "Forum Topic message ID not passed"
+msgstr ""
+
+msgid "Forum Topic Message not found"
+msgstr ""
+
+msgid "Forum Topic message not found"
+msgstr ""
+
+msgid "Enter some keywords for search"
+msgstr ""
+
+msgid "Search keyword must be longer than 3 characters"
+msgstr ""
+
+msgid "File can not be downloaded at the moment. Please contact support"
+msgstr ""
+
+msgid "Order not found"
+msgstr ""
+
+msgid "File was not uploaded"
+msgstr ""
+
+msgid "Error uploading file"
+msgstr ""
+
+msgid "Product is not configured completely."
+msgstr ""
+
+msgid "plan_id is missing"
+msgstr ""
+
+msgid "Hosting plan not found"
+msgstr ""
+
+msgid "Server name is missing"
+msgstr ""
+
+msgid "Server IP is missing"
+msgstr ""
+
+msgid "Server manager is missing"
+msgstr ""
+
+msgid "Server id is missing"
+msgstr ""
+
+msgid "Server not found"
+msgstr ""
+
+msgid "Hosting plan id is missing"
+msgstr ""
+
+msgid "Hosting plan name is missing"
+msgstr ""
+
+msgid "Hoting plan name can not be empty"
+msgstr ""
+
+msgid ":hosting for :domain"
+msgstr ""
+
+msgid "Notification id is missing"
+msgstr ""
+
+msgid "Notification message was not found"
+msgstr ""
+
+msgid "Unknown API call :call"
+msgstr ""
+
+msgid "Unauthorized IP"
+msgstr ""
+
+msgid "Request limit reached"
+msgstr ""
+
+msgid "Unknow API call"
+msgstr ""
+
+msgid "Authentication Failed"
+msgstr ""
+
+msgid "Client API can be initiated"
+msgstr ""
+
+msgid "Hook event not passed"
+msgstr ""
+
+msgid "Param mod not passed"
+msgstr ""
+
+msgid "Article id not passed"
+msgstr ""
+
+msgid "Article not found"
+msgstr ""
+
+msgid "Article category id not passed"
+msgstr ""
+
+msgid "Article title not passed"
+msgstr ""
+
+msgid "Article id is missing"
+msgstr ""
+
+msgid "Caegory id not passed"
+msgstr ""
+
+msgid "Article Category not found"
+msgstr ""
+
+msgid "Category title not passed"
+msgstr ""
+
+msgid "Article item not found"
+msgstr ""
+
+msgid "Category ID or slug is missing"
+msgstr ""
+
+msgid "Knowledge base category not found"
+msgstr ""
+
+msgid "Invoice hash not passed"
+msgstr ""
+
+msgid "Invoice was not found"
+msgstr ""
+
+msgid "Order id required"
+msgstr ""
+
+msgid "Order :id is free. No need to generate invoice."
+msgstr ""
+
+msgid "Invoice is related to order #:id. Please cancel order first."
+msgstr ""
+
+msgid "Invoice id not passed"
+msgstr ""
+
+msgid "Invoice item id not passed"
+msgstr ""
+
+msgid "Invoice item was not found"
+msgstr ""
+
+msgid "Transaction id is missing"
+msgstr ""
+
+msgid "Transaction not found"
+msgstr ""
+
+msgid "Transaction invoice id is missing"
+msgstr ""
+
+msgid "Payment gateway id is missing"
+msgstr ""
+
+msgid "Gateway was not found"
+msgstr ""
+
+msgid "Payment gateway code is missing"
+msgstr ""
+
+msgid "Payment gateway is not available for installation."
+msgstr ""
+
+msgid "Gateway id not passed"
+msgstr ""
+
+msgid "Gateway not found"
+msgstr ""
+
+msgid "Client id not passed"
+msgstr ""
+
+msgid "Payment gateway id not passed"
+msgstr ""
+
+msgid "Subscription currency not passed"
+msgstr ""
+
+msgid "Payment gateway not found"
+msgstr ""
+
+msgid ""
+"Client currency must match subscription currency. Check if clients currency "
+"is defined."
+msgstr ""
+
+msgid "Subscription id not passed"
+msgstr ""
+
+msgid "Subscription not found"
+msgstr ""
+
+msgid "Tax id is missing"
+msgstr ""
+
+msgid "Tax rule not found"
+msgstr ""
+
+msgid "Tax name is missing"
+msgstr ""
+
+msgid "Tax rate is missing or is not valid"
+msgstr ""
+
+msgid "Invoice hash not passed. Missing param hash"
+msgstr ""
+
+msgid "Payment method not found. Missing param gateway_id"
+msgstr ""
+
+msgid "Invoice not found"
+msgstr ""
+
+msgid "Payment method not found"
+msgstr ""
+
+msgid "This invoice can't be subscribed"
+msgstr ""
+
+msgid "API call is missing arguments"
+msgstr ""
+
+msgid "Currency code is missing"
+msgstr ""
+
+msgid "Currency not found"
+msgstr ""
+
+msgid "Currency format is missing"
+msgstr ""
+
+msgid "Currency already registered"
+msgstr ""
+
+msgid "Currency code is not valid"
+msgstr ""
+
+msgid "Currency rate is not valid"
+msgstr ""
+
+msgid ""
+"You have already used this promo code. Please remove promo code and checkout "
+"again."
+msgstr ""
+
+msgid "Can not checkout empty cart."
+msgstr ""
+
+msgid ""
+"Selected currency :selected does not match your profile currency :code. "
+"Please change cart currency to continue."
+msgstr ""
+
+msgid "Shopping cart id is missing"
+msgstr ""
+
+msgid "Shopping cart not found"
+msgstr ""
+
+msgid "Currency code not passed"
+msgstr ""
+
+msgid "Promo code not passed"
+msgstr ""
+
+msgid "Promo code is expired or does not exist"
+msgstr ""
+
+msgid "Cart item id not passed"
+msgstr ""
+
+msgid "Solusvm order not found"
+msgstr ""
+
+msgid "Node is not selected for import."
+msgstr ""
+
+msgid "No servers selected for import."
+msgstr ""
+
+msgid "Select product for orders."
+msgstr ""
+
+msgid ""
+"Product is not configured completely. Please provide solusvm node in product "
+"configuration page."
+msgstr ""
+
+msgid ""
+"Product is not configured completely. Please provide solusvm plan in product "
+"configuration page."
+msgstr ""
+
+msgid "No clients selected for import."
+msgstr ""
+
+msgid "No clients found on SolusVM server."
+msgstr ""
+
+msgid "Virtual private server :title"
+msgstr ""
+
+msgid "Please enter VPS hostname."
+msgstr ""
+
+msgid "Hostname :hostname is not valid."
+msgstr ""
+
+msgid "Please select VPS template."
+msgstr ""
+
+msgid "SolusVM API ID is missing."
+msgstr ""
+
+msgid "SolusVM API KEY is missing."
+msgstr ""
+
+msgid "SolusVM API ipaddress is missing."
+msgstr ""
+
+msgid "SolusVM API secure is missing."
+msgstr ""
+
+msgid "SolusVM API port is missing."
+msgstr ""
+
+msgid "Could not activate order because ordered product does not exists"
+msgstr ""
+
+msgid ""
+"Could not activate order. Product :id configuration is missing node parameter"
+msgstr ""
+
+msgid ""
+"Could not activate order. Product :id configuration is missing plan parameter"
+msgstr ""
+
+msgid ""
+"Could not activate order. Product :id configuration is missing "
+"virtualization type parameter"
+msgstr ""
+
+msgid ""
+"Could not activate order. Product :id configuration is missing ips amount "
+"parameter"
+msgstr ""
+
+msgid "Root password must be longer than 4 symbols"
+msgstr ""
+
+msgid "Plan name must not be empty"
+msgstr ""
+
+msgid "Hostname must not be empty"
+msgstr ""
+
+msgid "Template must not be empty"
+msgstr ""
+
+msgid "Password must be longer than 4 symbols"
+msgstr ""
+
+msgid "TLD is missing"
+msgstr ""
+
+msgid "Tld already registered"
+msgstr ""
+
+msgid "TLD registrar id is missing"
+msgstr ""
+
+msgid "Registration price is missing"
+msgstr ""
+
+msgid "Renewal price is missing"
+msgstr ""
+
+msgid "Transfer price is missing"
+msgstr ""
+
+msgid "Registrar code not passed"
+msgstr ""
+
+msgid "Registrar is not available for installation."
+msgstr ""
+
+msgid "Registrar id not passed"
+msgstr ""
+
+msgid "Registrar not found"
+msgstr ""
+
+msgid "Registrar id is missing"
+msgstr ""
+
+msgid "Domain order is not activated"
+msgstr ""
+
+msgid "Tld is required"
+msgstr ""
+
+msgid "Sld is required"
+msgstr ""
+
+msgid "Domain :domain is not valid"
+msgstr ""
+
+msgid "Domain availability could not be determined. TLD is not active."
+msgstr ""
+
+msgid "Domain is not available."
+msgstr ""
+
+msgid "TLD is not active."
+msgstr ""
+
+msgid "Domain can not be transferred."
+msgstr ""
+
+msgid "Domain :domain registration"
+msgstr ""
+
+msgid "Domain :domain transfer"
+msgstr ""
+
+msgid "Only pending setup orders can be deleted."
+msgstr ""
+
+msgid "This feature is available in BoxBilling PRO version."
+msgstr ""
+
+msgid "Currency :code not found"
+msgstr ""
+
+msgid "Product :id is out of stock."
+msgstr ""
+
+msgid "Group ID parameter is missing for addon product order"
+msgstr ""
+
+msgid "Parent order :group_id was not found"
+msgstr ""
+
+msgid "Only pending setup or failed orders can be activated"
+msgstr ""
+
+msgid "Only suspended orders can be unsuspended"
+msgstr ""
+
+msgid "Only canceled orders can be uncanceled"
+msgstr ""
+
+msgid "Order config not passed"
+msgstr ""
+
+msgid "Order status was not passed"
+msgstr ""
+
+msgid "Order history line id not passed"
+msgstr ""
+
+msgid "Order history line not found"
+msgstr ""
+
+msgid "Automatically issue renewal invoices"
+msgstr ""
+
+msgid "Issue invoices manually"
+msgstr ""
+
+msgid "Order id not passed"
+msgstr ""
